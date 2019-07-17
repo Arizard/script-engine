@@ -31,3 +31,9 @@
     transform: rotate(360deg);
   }
 }
+
+.customCallout {
+  max-width: 640px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
