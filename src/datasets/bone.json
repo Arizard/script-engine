@@ -1,0 +1,2912 @@
+[
+  {
+    "idnum": 1,
+    "age": 11.7,
+    "gender": "male",
+    "spnbmd": 0.01808067
+  },
+  {
+    "idnum": 1,
+    "age": 12.7,
+    "gender": "male",
+    "spnbmd": 0.06010929
+  },
+  {
+    "idnum": 1,
+    "age": 13.75,
+    "gender": "male",
+    "spnbmd": 0.005857545
+  },
+  {
+    "idnum": 2,
+    "age": 13.25,
+    "gender": "male",
+    "spnbmd": 0.01026393
+  },
+  {
+    "idnum": 2,
+    "age": 14.3,
+    "gender": "male",
+    "spnbmd": 0.2105263
+  },
+  {
+    "idnum": 2,
+    "age": 15.3,
+    "gender": "male",
+    "spnbmd": 0.04084321
+  },
+  {
+    "idnum": 3,
+    "age": 11.4,
+    "gender": "male",
+    "spnbmd": -0.02964119
+  },
+  {
+    "idnum": 3,
+    "age": 12.4,
+    "gender": "male",
+    "spnbmd": -0.006430868
+  },
+  {
+    "idnum": 3,
+    "age": 13.4,
+    "gender": "male",
+    "spnbmd": 0.0566343
+  },
+  {
+    "idnum": 4,
+    "age": 10.55,
+    "gender": "female",
+    "spnbmd": 0.1080432
+  },
+  {
+    "idnum": 4,
+    "age": 11.5,
+    "gender": "female",
+    "spnbmd": 0.2199125
+  },
+  {
+    "idnum": 4,
+    "age": 12.55,
+    "gender": "female",
+    "spnbmd": 0.07664085
+  },
+  {
+    "idnum": 5,
+    "age": 12.75,
+    "gender": "female",
+    "spnbmd": 0.09641387
+  },
+  {
+    "idnum": 5,
+    "age": 13.7,
+    "gender": "female",
+    "spnbmd": 0.04381694
+  },
+  {
+    "idnum": 5,
+    "age": 14.75,
+    "gender": "female",
+    "spnbmd": 0.04748982
+  },
+  {
+    "idnum": 6,
+    "age": 18,
+    "gender": "female",
+    "spnbmd": 0.005836576
+  },
+  {
+    "idnum": 7,
+    "age": 13.2,
+    "gender": "female",
+    "spnbmd": 0.1069959
+  },
+  {
+    "idnum": 7,
+    "age": 14.25,
+    "gender": "female",
+    "spnbmd": 0.09462656
+  },
+  {
+    "idnum": 7,
+    "age": 15.3,
+    "gender": "female",
+    "spnbmd": 0.01459035
+  },
+  {
+    "idnum": 8,
+    "age": 12.95,
+    "gender": "male",
+    "spnbmd": 0.1944643
+  },
+  {
+    "idnum": 9,
+    "age": 9.7,
+    "gender": "female",
+    "spnbmd": 0.03136763
+  },
+  {
+    "idnum": 10,
+    "age": 16.2,
+    "gender": "female",
+    "spnbmd": 0.01782364
+  },
+  {
+    "idnum": 10,
+    "age": 17.2,
+    "gender": "female",
+    "spnbmd": 0.01198157
+  },
+  {
+    "idnum": 10,
+    "age": 18.3,
+    "gender": "female",
+    "spnbmd": -0.02352763
+  },
+  {
+    "idnum": 11,
+    "age": 13.1,
+    "gender": "male",
+    "spnbmd": 0.01895044
+  },
+  {
+    "idnum": 11,
+    "age": 14.1,
+    "gender": "male",
+    "spnbmd": 0.07439199
+  },
+  {
+    "idnum": 11,
+    "age": 15.1,
+    "gender": "male",
+    "spnbmd": 0.05725699
+  },
+  {
+    "idnum": 12,
+    "age": 16.2,
+    "gender": "female",
+    "spnbmd": 0.03652968
+  },
+  {
+    "idnum": 12,
+    "age": 17.75,
+    "gender": "female",
+    "spnbmd": 0.01468429
+  },
+  {
+    "idnum": 13,
+    "age": 12.6,
+    "gender": "female",
+    "spnbmd": 0.1756374
+  },
+  {
+    "idnum": 13,
+    "age": 14.15,
+    "gender": "female",
+    "spnbmd": 0.07056799
+  },
+  {
+    "idnum": 17,
+    "age": 16,
+    "gender": "female",
+    "spnbmd": 0.03767821
+  },
+  {
+    "idnum": 18,
+    "age": 14.5,
+    "gender": "female",
+    "spnbmd": 0.0179704
+  },
+  {
+    "idnum": 19,
+    "age": 11.7,
+    "gender": "male",
+    "spnbmd": -0.006097561
+  },
+  {
+    "idnum": 20,
+    "age": 21.4,
+    "gender": "female",
+    "spnbmd": -0.03155996
+  },
+  {
+    "idnum": 20,
+    "age": 22.4,
+    "gender": "female",
+    "spnbmd": 0.006517691
+  },
+  {
+    "idnum": 21,
+    "age": 18.8,
+    "gender": "female",
+    "spnbmd": 0.01082921
+  },
+  {
+    "idnum": 22,
+    "age": 15.05,
+    "gender": "female",
+    "spnbmd": 0.03420342
+  },
+  {
+    "idnum": 22,
+    "age": 16.4,
+    "gender": "female",
+    "spnbmd": -0.01669847
+  },
+  {
+    "idnum": 23,
+    "age": 12.65,
+    "gender": "female",
+    "spnbmd": 0.08986928
+  },
+  {
+    "idnum": 23,
+    "age": 14.2,
+    "gender": "female",
+    "spnbmd": 0.0464716
+  },
+  {
+    "idnum": 24,
+    "age": 15.3,
+    "gender": "male",
+    "spnbmd": 0.05931879
+  },
+  {
+    "idnum": 24,
+    "age": 16.2,
+    "gender": "male",
+    "spnbmd": 0.01429082
+  },
+  {
+    "idnum": 24,
+    "age": 17.15,
+    "gender": "male",
+    "spnbmd": 0.04250797
+  },
+  {
+    "idnum": 25,
+    "age": 10.95,
+    "gender": "female",
+    "spnbmd": 0.02899812
+  },
+  {
+    "idnum": 25,
+    "age": 12,
+    "gender": "female",
+    "spnbmd": 0.1159196
+  },
+  {
+    "idnum": 25,
+    "age": 12.95,
+    "gender": "female",
+    "spnbmd": 0.1015697
+  },
+  {
+    "idnum": 26,
+    "age": 13.3,
+    "gender": "male",
+    "spnbmd": 0.1373762
+  },
+  {
+    "idnum": 26,
+    "age": 14.3,
+    "gender": "male",
+    "spnbmd": 0.06420022
+  },
+  {
+    "idnum": 26,
+    "age": 15.3,
+    "gender": "male",
+    "spnbmd": -0.01431493
+  },
+  {
+    "idnum": 27,
+    "age": 12.3,
+    "gender": "male",
+    "spnbmd": 0.06714628
+  },
+  {
+    "idnum": 27,
+    "age": 13.3,
+    "gender": "male",
+    "spnbmd": 0.1438202
+  },
+  {
+    "idnum": 27,
+    "age": 14.3,
+    "gender": "male",
+    "spnbmd": 0.06679764
+  },
+  {
+    "idnum": 28,
+    "age": 20.2,
+    "gender": "female",
+    "spnbmd": 0.003971756
+  },
+  {
+    "idnum": 29,
+    "age": 24.3,
+    "gender": "female",
+    "spnbmd": -0.01695554
+  },
+  {
+    "idnum": 29,
+    "age": 25.55,
+    "gender": "female",
+    "spnbmd": 0.009467456
+  },
+  {
+    "idnum": 30,
+    "age": 23.9,
+    "gender": "male",
+    "spnbmd": 0.02067669
+  },
+  {
+    "idnum": 31,
+    "age": 16.1,
+    "gender": "male",
+    "spnbmd": 0.03780566
+  },
+  {
+    "idnum": 31,
+    "age": 17.25,
+    "gender": "male",
+    "spnbmd": -0.0394527
+  },
+  {
+    "idnum": 31,
+    "age": 18.3,
+    "gender": "male",
+    "spnbmd": 0.02413127
+  },
+  {
+    "idnum": 32,
+    "age": 11.85,
+    "gender": "male",
+    "spnbmd": 0.0334021
+  },
+  {
+    "idnum": 32,
+    "age": 13.05,
+    "gender": "male",
+    "spnbmd": 0.07566485
+  },
+  {
+    "idnum": 32,
+    "age": 14.05,
+    "gender": "male",
+    "spnbmd": 0.1556811
+  },
+  {
+    "idnum": 33,
+    "age": 11.15,
+    "gender": "male",
+    "spnbmd": 0.04006781
+  },
+  {
+    "idnum": 33,
+    "age": 12.1,
+    "gender": "male",
+    "spnbmd": 0.05890228
+  },
+  {
+    "idnum": 33,
+    "age": 13.1,
+    "gender": "male",
+    "spnbmd": 0.02907712
+  },
+  {
+    "idnum": 35,
+    "age": 10.25,
+    "gender": "male",
+    "spnbmd": 0.001932367
+  },
+  {
+    "idnum": 35,
+    "age": 11.2,
+    "gender": "male",
+    "spnbmd": 0.008680556
+  },
+  {
+    "idnum": 35,
+    "age": 12.25,
+    "gender": "male",
+    "spnbmd": 0.02816461
+  },
+  {
+    "idnum": 36,
+    "age": 11.4,
+    "gender": "male",
+    "spnbmd": 0.0453125
+  },
+  {
+    "idnum": 36,
+    "age": 12.5,
+    "gender": "male",
+    "spnbmd": 0.06726457
+  },
+  {
+    "idnum": 36,
+    "age": 13.5,
+    "gender": "male",
+    "spnbmd": 0.1607884
+  },
+  {
+    "idnum": 37,
+    "age": 11.05,
+    "gender": "female",
+    "spnbmd": -0.03968254
+  },
+  {
+    "idnum": 37,
+    "age": 11.95,
+    "gender": "female",
+    "spnbmd": 0.1165981
+  },
+  {
+    "idnum": 37,
+    "age": 12.9,
+    "gender": "female",
+    "spnbmd": 0.1326816
+  },
+  {
+    "idnum": 39,
+    "age": 24.9,
+    "gender": "female",
+    "spnbmd": -0.004436557
+  },
+  {
+    "idnum": 40,
+    "age": 19.15,
+    "gender": "female",
+    "spnbmd": 0.02659132
+  },
+  {
+    "idnum": 40,
+    "age": 20.25,
+    "gender": "female",
+    "spnbmd": 8.073632e-4
+  },
+  {
+    "idnum": 40,
+    "age": 21.3,
+    "gender": "female",
+    "spnbmd": 0.01064774
+  },
+  {
+    "idnum": 43,
+    "age": 15.7,
+    "gender": "male",
+    "spnbmd": 0.04166667
+  },
+  {
+    "idnum": 43,
+    "age": 16.7,
+    "gender": "male",
+    "spnbmd": 0.01727273
+  },
+  {
+    "idnum": 43,
+    "age": 17.75,
+    "gender": "male",
+    "spnbmd": -0.03249655
+  },
+  {
+    "idnum": 44,
+    "age": 25,
+    "gender": "female",
+    "spnbmd": 0.05560976
+  },
+  {
+    "idnum": 45,
+    "age": 24.9,
+    "gender": "female",
+    "spnbmd": 0.006493506
+  },
+  {
+    "idnum": 47,
+    "age": 10.65,
+    "gender": "female",
+    "spnbmd": 0.121965
+  },
+  {
+    "idnum": 47,
+    "age": 11.7,
+    "gender": "female",
+    "spnbmd": 0.1686747
+  },
+  {
+    "idnum": 47,
+    "age": 12.7,
+    "gender": "female",
+    "spnbmd": 0.05716963
+  },
+  {
+    "idnum": 48,
+    "age": 15.1,
+    "gender": "female",
+    "spnbmd": 0.02956081
+  },
+  {
+    "idnum": 48,
+    "age": 16.15,
+    "gender": "female",
+    "spnbmd": -0.008949213
+  },
+  {
+    "idnum": 48,
+    "age": 17.15,
+    "gender": "female",
+    "spnbmd": -0.04326613
+  },
+  {
+    "idnum": 49,
+    "age": 14.35,
+    "gender": "female",
+    "spnbmd": 0.06828852
+  },
+  {
+    "idnum": 49,
+    "age": 15.5,
+    "gender": "female",
+    "spnbmd": 0.02692868
+  },
+  {
+    "idnum": 49,
+    "age": 16.55,
+    "gender": "female",
+    "spnbmd": 0.006580184
+  },
+  {
+    "idnum": 50,
+    "age": 17.65,
+    "gender": "male",
+    "spnbmd": 0.05743525
+  },
+  {
+    "idnum": 50,
+    "age": 18.65,
+    "gender": "male",
+    "spnbmd": 0.06824275
+  },
+  {
+    "idnum": 50,
+    "age": 19.7,
+    "gender": "male",
+    "spnbmd": 0.01246883
+  },
+  {
+    "idnum": 51,
+    "age": 10.6,
+    "gender": "male",
+    "spnbmd": 0.0148368
+  },
+  {
+    "idnum": 51,
+    "age": 11.7,
+    "gender": "male",
+    "spnbmd": 0.03206997
+  },
+  {
+    "idnum": 51,
+    "age": 12.75,
+    "gender": "male",
+    "spnbmd": 0.02182845
+  },
+  {
+    "idnum": 52,
+    "age": 14,
+    "gender": "male",
+    "spnbmd": 0.04850214
+  },
+  {
+    "idnum": 53,
+    "age": 10.15,
+    "gender": "male",
+    "spnbmd": 0.05979938
+  },
+  {
+    "idnum": 53,
+    "age": 11.1,
+    "gender": "male",
+    "spnbmd": 0.1186161
+  },
+  {
+    "idnum": 53,
+    "age": 12.1,
+    "gender": "male",
+    "spnbmd": 0.1119293
+  },
+  {
+    "idnum": 54,
+    "age": 14.9,
+    "gender": "male",
+    "spnbmd": 0.1029359
+  },
+  {
+    "idnum": 54,
+    "age": 15.95,
+    "gender": "male",
+    "spnbmd": 0.1359677
+  },
+  {
+    "idnum": 54,
+    "age": 17.15,
+    "gender": "male",
+    "spnbmd": 0.04145372
+  },
+  {
+    "idnum": 55,
+    "age": 17.2,
+    "gender": "female",
+    "spnbmd": 0.001940994
+  },
+  {
+    "idnum": 55,
+    "age": 18.4,
+    "gender": "female",
+    "spnbmd": -0.001806685
+  },
+  {
+    "idnum": 55,
+    "age": 19.45,
+    "gender": "female",
+    "spnbmd": 0.03044015
+  },
+  {
+    "idnum": 56,
+    "age": 10.65,
+    "gender": "male",
+    "spnbmd": 0.02538685
+  },
+  {
+    "idnum": 56,
+    "age": 11.65,
+    "gender": "male",
+    "spnbmd": 0.01868622
+  },
+  {
+    "idnum": 56,
+    "age": 12.6,
+    "gender": "male",
+    "spnbmd": 0.06615776
+  },
+  {
+    "idnum": 57,
+    "age": 16,
+    "gender": "male",
+    "spnbmd": 0.05417957
+  },
+  {
+    "idnum": 57,
+    "age": 17,
+    "gender": "male",
+    "spnbmd": 0.1013216
+  },
+  {
+    "idnum": 57,
+    "age": 18,
+    "gender": "male",
+    "spnbmd": 0.06133333
+  },
+  {
+    "idnum": 58,
+    "age": 13.9,
+    "gender": "male",
+    "spnbmd": -0.02476474
+  },
+  {
+    "idnum": 58,
+    "age": 14.95,
+    "gender": "male",
+    "spnbmd": 0.02212013
+  },
+  {
+    "idnum": 58,
+    "age": 15.9,
+    "gender": "male",
+    "spnbmd": 0.09009009
+  },
+  {
+    "idnum": 59,
+    "age": 11.7,
+    "gender": "male",
+    "spnbmd": 0.0177305
+  },
+  {
+    "idnum": 59,
+    "age": 12.7,
+    "gender": "male",
+    "spnbmd": -0.01219512
+  },
+  {
+    "idnum": 59,
+    "age": 13.75,
+    "gender": "male",
+    "spnbmd": -0.00320667
+  },
+  {
+    "idnum": 60,
+    "age": 23.3,
+    "gender": "female",
+    "spnbmd": -5.458515e-4
+  },
+  {
+    "idnum": 60,
+    "age": 24.7,
+    "gender": "female",
+    "spnbmd": 0.007284382
+  },
+  {
+    "idnum": 61,
+    "age": 13.1,
+    "gender": "female",
+    "spnbmd": 0.04291845
+  },
+  {
+    "idnum": 62,
+    "age": 9.8,
+    "gender": "male",
+    "spnbmd": 0.06545961
+  },
+  {
+    "idnum": 62,
+    "age": 10.85,
+    "gender": "male",
+    "spnbmd": 0.03089721
+  },
+  {
+    "idnum": 62,
+    "age": 11.9,
+    "gender": "male",
+    "spnbmd": 0.09608091
+  },
+  {
+    "idnum": 63,
+    "age": 11.05,
+    "gender": "female",
+    "spnbmd": 0.1040752
+  },
+  {
+    "idnum": 63,
+    "age": 12.15,
+    "gender": "female",
+    "spnbmd": 0.1361386
+  },
+  {
+    "idnum": 63,
+    "age": 13.25,
+    "gender": "female",
+    "spnbmd": 0.05284274
+  },
+  {
+    "idnum": 64,
+    "age": 14.25,
+    "gender": "female",
+    "spnbmd": 0.06145142
+  },
+  {
+    "idnum": 64,
+    "age": 15.4,
+    "gender": "female",
+    "spnbmd": 0.01088777
+  },
+  {
+    "idnum": 64,
+    "age": 16.55,
+    "gender": "female",
+    "spnbmd": 0.02886003
+  },
+  {
+    "idnum": 65,
+    "age": 16.4,
+    "gender": "male",
+    "spnbmd": -0.002803738
+  },
+  {
+    "idnum": 65,
+    "age": 17.55,
+    "gender": "male",
+    "spnbmd": 0.01946507
+  },
+  {
+    "idnum": 65,
+    "age": 18.75,
+    "gender": "male",
+    "spnbmd": -0.004985873
+  },
+  {
+    "idnum": 66,
+    "age": 20.65,
+    "gender": "male",
+    "spnbmd": 0.02168805
+  },
+  {
+    "idnum": 66,
+    "age": 22,
+    "gender": "male",
+    "spnbmd": -0.009708738
+  },
+  {
+    "idnum": 67,
+    "age": 10,
+    "gender": "female",
+    "spnbmd": 0.0644632
+  },
+  {
+    "idnum": 67,
+    "age": 11.15,
+    "gender": "female",
+    "spnbmd": 0.1400427
+  },
+  {
+    "idnum": 67,
+    "age": 12.25,
+    "gender": "female",
+    "spnbmd": 0.17174
+  },
+  {
+    "idnum": 68,
+    "age": 15.15,
+    "gender": "female",
+    "spnbmd": 0.06535948
+  },
+  {
+    "idnum": 68,
+    "age": 16.1,
+    "gender": "female",
+    "spnbmd": 0.02666667
+  },
+  {
+    "idnum": 68,
+    "age": 17.25,
+    "gender": "female",
+    "spnbmd": -0.009157509
+  },
+  {
+    "idnum": 69,
+    "age": 13.15,
+    "gender": "male",
+    "spnbmd": 0.04589788
+  },
+  {
+    "idnum": 69,
+    "age": 14.1,
+    "gender": "male",
+    "spnbmd": -0.01487603
+  },
+  {
+    "idnum": 69,
+    "age": 15.25,
+    "gender": "male",
+    "spnbmd": 0.1045431
+  },
+  {
+    "idnum": 70,
+    "age": 15.1,
+    "gender": "female",
+    "spnbmd": 0.01003009
+  },
+  {
+    "idnum": 71,
+    "age": 13.05,
+    "gender": "male",
+    "spnbmd": 0.1029329
+  },
+  {
+    "idnum": 71,
+    "age": 14.05,
+    "gender": "male",
+    "spnbmd": 0.1773836
+  },
+  {
+    "idnum": 71,
+    "age": 15.05,
+    "gender": "male",
+    "spnbmd": 0.06154843
+  },
+  {
+    "idnum": 72,
+    "age": 11.15,
+    "gender": "male",
+    "spnbmd": 0.04724666
+  },
+  {
+    "idnum": 72,
+    "age": 12.1,
+    "gender": "male",
+    "spnbmd": 0.09142053
+  },
+  {
+    "idnum": 72,
+    "age": 13.15,
+    "gender": "male",
+    "spnbmd": 0.1710403
+  },
+  {
+    "idnum": 73,
+    "age": 11.95,
+    "gender": "male",
+    "spnbmd": 0.1711855
+  },
+  {
+    "idnum": 73,
+    "age": 13.25,
+    "gender": "male",
+    "spnbmd": 0.1303646
+  },
+  {
+    "idnum": 73,
+    "age": 14.35,
+    "gender": "male",
+    "spnbmd": 0.04237716
+  },
+  {
+    "idnum": 74,
+    "age": 19.8,
+    "gender": "male",
+    "spnbmd": -0.01838235
+  },
+  {
+    "idnum": 77,
+    "age": 23.45,
+    "gender": "female",
+    "spnbmd": -0.01041739
+  },
+  {
+    "idnum": 78,
+    "age": 15.8,
+    "gender": "female",
+    "spnbmd": -0.003440683
+  },
+  {
+    "idnum": 78,
+    "age": 17.05,
+    "gender": "female",
+    "spnbmd": 0.03080172
+  },
+  {
+    "idnum": 78,
+    "age": 18.1,
+    "gender": "female",
+    "spnbmd": -0.001872659
+  },
+  {
+    "idnum": 82,
+    "age": 18.65,
+    "gender": "male",
+    "spnbmd": 0.01113379
+  },
+  {
+    "idnum": 84,
+    "age": 22.25,
+    "gender": "female",
+    "spnbmd": 0.01943301
+  },
+  {
+    "idnum": 84,
+    "age": 23.25,
+    "gender": "female",
+    "spnbmd": 0.006434415
+  },
+  {
+    "idnum": 84,
+    "age": 24.3,
+    "gender": "female",
+    "spnbmd": -0.01305221
+  },
+  {
+    "idnum": 85,
+    "age": 13.15,
+    "gender": "female",
+    "spnbmd": 0.07203534
+  },
+  {
+    "idnum": 85,
+    "age": 14.85,
+    "gender": "female",
+    "spnbmd": 0.04067206
+  },
+  {
+    "idnum": 86,
+    "age": 19.2,
+    "gender": "male",
+    "spnbmd": 0.02656114
+  },
+  {
+    "idnum": 87,
+    "age": 12.55,
+    "gender": "female",
+    "spnbmd": 0.1438498
+  },
+  {
+    "idnum": 87,
+    "age": 13.8,
+    "gender": "female",
+    "spnbmd": 0.1490877
+  },
+  {
+    "idnum": 87,
+    "age": 15.05,
+    "gender": "female",
+    "spnbmd": 0.0435578
+  },
+  {
+    "idnum": 88,
+    "age": 23.45,
+    "gender": "female",
+    "spnbmd": 0.01018589
+  },
+  {
+    "idnum": 89,
+    "age": 19.6,
+    "gender": "male",
+    "spnbmd": -0.005074854
+  },
+  {
+    "idnum": 89,
+    "age": 20.8,
+    "gender": "male",
+    "spnbmd": 0.03667263
+  },
+  {
+    "idnum": 89,
+    "age": 21.85,
+    "gender": "male",
+    "spnbmd": 0.01647188
+  },
+  {
+    "idnum": 90,
+    "age": 18.05,
+    "gender": "female",
+    "spnbmd": 0.01550388
+  },
+  {
+    "idnum": 90,
+    "age": 19.55,
+    "gender": "female",
+    "spnbmd": 0
+  },
+  {
+    "idnum": 92,
+    "age": 24,
+    "gender": "female",
+    "spnbmd": 0.00524109
+  },
+  {
+    "idnum": 93,
+    "age": 12.05,
+    "gender": "female",
+    "spnbmd": 0.1344861
+  },
+  {
+    "idnum": 93,
+    "age": 13.1,
+    "gender": "female",
+    "spnbmd": 0.1595973
+  },
+  {
+    "idnum": 93,
+    "age": 14.25,
+    "gender": "female",
+    "spnbmd": 0.0657056
+  },
+  {
+    "idnum": 94,
+    "age": 15.75,
+    "gender": "female",
+    "spnbmd": -0.00720072
+  },
+  {
+    "idnum": 94,
+    "age": 16.9,
+    "gender": "female",
+    "spnbmd": -0.00914837
+  },
+  {
+    "idnum": 94,
+    "age": 17.95,
+    "gender": "female",
+    "spnbmd": 0.01345442
+  },
+  {
+    "idnum": 95,
+    "age": 17.9,
+    "gender": "male",
+    "spnbmd": 0.01455604
+  },
+  {
+    "idnum": 95,
+    "age": 19.05,
+    "gender": "male",
+    "spnbmd": -0.02048381
+  },
+  {
+    "idnum": 95,
+    "age": 20.05,
+    "gender": "male",
+    "spnbmd": 0.01707525
+  },
+  {
+    "idnum": 96,
+    "age": 18.75,
+    "gender": "female",
+    "spnbmd": -0.01757895
+  },
+  {
+    "idnum": 96,
+    "age": 19.95,
+    "gender": "female",
+    "spnbmd": 0.0271261
+  },
+  {
+    "idnum": 96,
+    "age": 21,
+    "gender": "female",
+    "spnbmd": -0.01644479
+  },
+  {
+    "idnum": 99,
+    "age": 15.2,
+    "gender": "male",
+    "spnbmd": 0.08355917
+  },
+  {
+    "idnum": 99,
+    "age": 16.25,
+    "gender": "male",
+    "spnbmd": 0.04885039
+  },
+  {
+    "idnum": 99,
+    "age": 17.4,
+    "gender": "male",
+    "spnbmd": 0.02308917
+  },
+  {
+    "idnum": 100,
+    "age": 13.75,
+    "gender": "female",
+    "spnbmd": 0.06412674
+  },
+  {
+    "idnum": 100,
+    "age": 14.9,
+    "gender": "female",
+    "spnbmd": 0.05733204
+  },
+  {
+    "idnum": 101,
+    "age": 11.5,
+    "gender": "female",
+    "spnbmd": 0.06391478
+  },
+  {
+    "idnum": 101,
+    "age": 12.65,
+    "gender": "female",
+    "spnbmd": 0.1328584
+  },
+  {
+    "idnum": 101,
+    "age": 13.8,
+    "gender": "female",
+    "spnbmd": 0.1099253
+  },
+  {
+    "idnum": 103,
+    "age": 12.15,
+    "gender": "male",
+    "spnbmd": 0.0270636
+  },
+  {
+    "idnum": 103,
+    "age": 13.4,
+    "gender": "male",
+    "spnbmd": 0.1173268
+  },
+  {
+    "idnum": 103,
+    "age": 14.6,
+    "gender": "male",
+    "spnbmd": 0.0778781
+  },
+  {
+    "idnum": 104,
+    "age": 9.65,
+    "gender": "female",
+    "spnbmd": 0.1000253
+  },
+  {
+    "idnum": 104,
+    "age": 10.9,
+    "gender": "female",
+    "spnbmd": 0.1147159
+  },
+  {
+    "idnum": 104,
+    "age": 12.1,
+    "gender": "female",
+    "spnbmd": 0.00972973
+  },
+  {
+    "idnum": 105,
+    "age": 10.25,
+    "gender": "male",
+    "spnbmd": 0.07692308
+  },
+  {
+    "idnum": 105,
+    "age": 11.55,
+    "gender": "male",
+    "spnbmd": 0.06562668
+  },
+  {
+    "idnum": 105,
+    "age": 12.7,
+    "gender": "male",
+    "spnbmd": 0.08118557
+  },
+  {
+    "idnum": 106,
+    "age": 16.5,
+    "gender": "male",
+    "spnbmd": 0.02202255
+  },
+  {
+    "idnum": 106,
+    "age": 17.65,
+    "gender": "male",
+    "spnbmd": 0.007489935
+  },
+  {
+    "idnum": 106,
+    "age": 18.7,
+    "gender": "male",
+    "spnbmd": 0.007150153
+  },
+  {
+    "idnum": 107,
+    "age": 14.35,
+    "gender": "female",
+    "spnbmd": 0.07389402
+  },
+  {
+    "idnum": 107,
+    "age": 15.5,
+    "gender": "female",
+    "spnbmd": 0.02720079
+  },
+  {
+    "idnum": 107,
+    "age": 16.6,
+    "gender": "female",
+    "spnbmd": 0.01149425
+  },
+  {
+    "idnum": 108,
+    "age": 18.7,
+    "gender": "female",
+    "spnbmd": 0
+  },
+  {
+    "idnum": 108,
+    "age": 20.25,
+    "gender": "female",
+    "spnbmd": 0.01384894
+  },
+  {
+    "idnum": 109,
+    "age": 12.25,
+    "gender": "female",
+    "spnbmd": 0.07268113
+  },
+  {
+    "idnum": 109,
+    "age": 13.35,
+    "gender": "female",
+    "spnbmd": 0.1783997
+  },
+  {
+    "idnum": 109,
+    "age": 14.4,
+    "gender": "female",
+    "spnbmd": 0.0108055
+  },
+  {
+    "idnum": 110,
+    "age": 10.15,
+    "gender": "female",
+    "spnbmd": 0.009303562
+  },
+  {
+    "idnum": 110,
+    "age": 11.25,
+    "gender": "female",
+    "spnbmd": 0.02236548
+  },
+  {
+    "idnum": 110,
+    "age": 12.3,
+    "gender": "female",
+    "spnbmd": 0.01977401
+  },
+  {
+    "idnum": 111,
+    "age": 22,
+    "gender": "male",
+    "spnbmd": 0.03465982
+  },
+  {
+    "idnum": 111,
+    "age": 23.05,
+    "gender": "male",
+    "spnbmd": -0.03158132
+  },
+  {
+    "idnum": 111,
+    "age": 24.1,
+    "gender": "male",
+    "spnbmd": -0.008997429
+  },
+  {
+    "idnum": 112,
+    "age": 17.95,
+    "gender": "female",
+    "spnbmd": 0.01706037
+  },
+  {
+    "idnum": 112,
+    "age": 19.3,
+    "gender": "female",
+    "spnbmd": 0.0199936
+  },
+  {
+    "idnum": 113,
+    "age": 9.95,
+    "gender": "female",
+    "spnbmd": 0.01584786
+  },
+  {
+    "idnum": 113,
+    "age": 11.1,
+    "gender": "female",
+    "spnbmd": 0.05779781
+  },
+  {
+    "idnum": 116,
+    "age": 16.05,
+    "gender": "male",
+    "spnbmd": 0.06731352
+  },
+  {
+    "idnum": 116,
+    "age": 17.65,
+    "gender": "male",
+    "spnbmd": 0.0760361
+  },
+  {
+    "idnum": 118,
+    "age": 22.9,
+    "gender": "male",
+    "spnbmd": -0.003174603
+  },
+  {
+    "idnum": 118,
+    "age": 24.1,
+    "gender": "male",
+    "spnbmd": -0.02071383
+  },
+  {
+    "idnum": 118,
+    "age": 25.2,
+    "gender": "male",
+    "spnbmd": 9.803922e-4
+  },
+  {
+    "idnum": 119,
+    "age": 10.1,
+    "gender": "male",
+    "spnbmd": 0.04963066
+  },
+  {
+    "idnum": 120,
+    "age": 13,
+    "gender": "male",
+    "spnbmd": 0.1005068
+  },
+  {
+    "idnum": 121,
+    "age": 9.8,
+    "gender": "female",
+    "spnbmd": 0.003826531
+  },
+  {
+    "idnum": 121,
+    "age": 11.15,
+    "gender": "female",
+    "spnbmd": 0.03005875
+  },
+  {
+    "idnum": 123,
+    "age": 15.85,
+    "gender": "male",
+    "spnbmd": 0.04303389
+  },
+  {
+    "idnum": 123,
+    "age": 17.4,
+    "gender": "male",
+    "spnbmd": 0.05334805
+  },
+  {
+    "idnum": 124,
+    "age": 17.15,
+    "gender": "male",
+    "spnbmd": 0.003632731
+  },
+  {
+    "idnum": 124,
+    "age": 18.25,
+    "gender": "male",
+    "spnbmd": -0.02351877
+  },
+  {
+    "idnum": 124,
+    "age": 19.35,
+    "gender": "male",
+    "spnbmd": 0.02228619
+  },
+  {
+    "idnum": 125,
+    "age": 16.7,
+    "gender": "female",
+    "spnbmd": -0.01969209
+  },
+  {
+    "idnum": 125,
+    "age": 17.95,
+    "gender": "female",
+    "spnbmd": 0.01692477
+  },
+  {
+    "idnum": 126,
+    "age": 19.4,
+    "gender": "male",
+    "spnbmd": -0.004035513
+  },
+  {
+    "idnum": 126,
+    "age": 20.7,
+    "gender": "male",
+    "spnbmd": -0.00506483
+  },
+  {
+    "idnum": 127,
+    "age": 10.15,
+    "gender": "male",
+    "spnbmd": 0.04037468
+  },
+  {
+    "idnum": 128,
+    "age": 10.15,
+    "gender": "male",
+    "spnbmd": 0.05822416
+  },
+  {
+    "idnum": 130,
+    "age": 18.75,
+    "gender": "male",
+    "spnbmd": -0.01748252
+  },
+  {
+    "idnum": 134,
+    "age": 10.65,
+    "gender": "female",
+    "spnbmd": -0.04276452
+  },
+  {
+    "idnum": 134,
+    "age": 11.75,
+    "gender": "female",
+    "spnbmd": 0.06224667
+  },
+  {
+    "idnum": 134,
+    "age": 12.8,
+    "gender": "female",
+    "spnbmd": 0.07004471
+  },
+  {
+    "idnum": 135,
+    "age": 11.55,
+    "gender": "male",
+    "spnbmd": 0.04449058
+  },
+  {
+    "idnum": 135,
+    "age": 12.6,
+    "gender": "male",
+    "spnbmd": 0.1399689
+  },
+  {
+    "idnum": 135,
+    "age": 13.65,
+    "gender": "male",
+    "spnbmd": 0.1500682
+  },
+  {
+    "idnum": 136,
+    "age": 18.35,
+    "gender": "male",
+    "spnbmd": -0.003582624
+  },
+  {
+    "idnum": 136,
+    "age": 19.4,
+    "gender": "male",
+    "spnbmd": -0.01582591
+  },
+  {
+    "idnum": 136,
+    "age": 20.45,
+    "gender": "male",
+    "spnbmd": 0.04020101
+  },
+  {
+    "idnum": 137,
+    "age": 18.6,
+    "gender": "female",
+    "spnbmd": 0.01662234
+  },
+  {
+    "idnum": 137,
+    "age": 19.95,
+    "gender": "female",
+    "spnbmd": -0.002826189
+  },
+  {
+    "idnum": 142,
+    "age": 17.15,
+    "gender": "female",
+    "spnbmd": 0.04831394
+  },
+  {
+    "idnum": 142,
+    "age": 18.5,
+    "gender": "female",
+    "spnbmd": 0
+  },
+  {
+    "idnum": 143,
+    "age": 16.95,
+    "gender": "male",
+    "spnbmd": 0.0139593
+  },
+  {
+    "idnum": 143,
+    "age": 18.1,
+    "gender": "male",
+    "spnbmd": -0.01031895
+  },
+  {
+    "idnum": 144,
+    "age": 21.5,
+    "gender": "female",
+    "spnbmd": -0.004655493
+  },
+  {
+    "idnum": 146,
+    "age": 16.9,
+    "gender": "female",
+    "spnbmd": 0.004864927
+  },
+  {
+    "idnum": 147,
+    "age": 19.9,
+    "gender": "female",
+    "spnbmd": 0.01260875
+  },
+  {
+    "idnum": 148,
+    "age": 21.7,
+    "gender": "male",
+    "spnbmd": -0.02387319
+  },
+  {
+    "idnum": 149,
+    "age": 12.8,
+    "gender": "female",
+    "spnbmd": 0.08053691
+  },
+  {
+    "idnum": 149,
+    "age": 14.25,
+    "gender": "female",
+    "spnbmd": 0.01447719
+  },
+  {
+    "idnum": 150,
+    "age": 18.95,
+    "gender": "female",
+    "spnbmd": -0.01200384
+  },
+  {
+    "idnum": 150,
+    "age": 19.95,
+    "gender": "female",
+    "spnbmd": 0.01486768
+  },
+  {
+    "idnum": 150,
+    "age": 20.95,
+    "gender": "female",
+    "spnbmd": 0.007202305
+  },
+  {
+    "idnum": 151,
+    "age": 19.35,
+    "gender": "male",
+    "spnbmd": 0.006497726
+  },
+  {
+    "idnum": 151,
+    "age": 20.85,
+    "gender": "male",
+    "spnbmd": 0.01193928
+  },
+  {
+    "idnum": 152,
+    "age": 15.6,
+    "gender": "female",
+    "spnbmd": 0.01778496
+  },
+  {
+    "idnum": 152,
+    "age": 17.15,
+    "gender": "female",
+    "spnbmd": 0.03177125
+  },
+  {
+    "idnum": 154,
+    "age": 24,
+    "gender": "male",
+    "spnbmd": 0.026534
+  },
+  {
+    "idnum": 154,
+    "age": 25.2,
+    "gender": "male",
+    "spnbmd": 0.0016072
+  },
+  {
+    "idnum": 155,
+    "age": 20.2,
+    "gender": "female",
+    "spnbmd": 0.0015
+  },
+  {
+    "idnum": 155,
+    "age": 21.75,
+    "gender": "female",
+    "spnbmd": 0.03625487
+  },
+  {
+    "idnum": 156,
+    "age": 20.65,
+    "gender": "female",
+    "spnbmd": -0.003465003
+  },
+  {
+    "idnum": 159,
+    "age": 19.15,
+    "gender": "male",
+    "spnbmd": -0.02219377
+  },
+  {
+    "idnum": 159,
+    "age": 20.55,
+    "gender": "male",
+    "spnbmd": 0.02321236
+  },
+  {
+    "idnum": 160,
+    "age": 20.5,
+    "gender": "female",
+    "spnbmd": 0.007833307
+  },
+  {
+    "idnum": 166,
+    "age": 18.75,
+    "gender": "female",
+    "spnbmd": 0.03129657
+  },
+  {
+    "idnum": 166,
+    "age": 19.8,
+    "gender": "female",
+    "spnbmd": 0.001584786
+  },
+  {
+    "idnum": 167,
+    "age": 23.05,
+    "gender": "female",
+    "spnbmd": -0.01042753
+  },
+  {
+    "idnum": 168,
+    "age": 20.15,
+    "gender": "female",
+    "spnbmd": -0.00783024
+  },
+  {
+    "idnum": 168,
+    "age": 21.2,
+    "gender": "female",
+    "spnbmd": -0.009556907
+  },
+  {
+    "idnum": 168,
+    "age": 22.15,
+    "gender": "female",
+    "spnbmd": 0.0165692
+  },
+  {
+    "idnum": 169,
+    "age": 21.85,
+    "gender": "male",
+    "spnbmd": 0.005008945
+  },
+  {
+    "idnum": 170,
+    "age": 23.35,
+    "gender": "female",
+    "spnbmd": 0
+  },
+  {
+    "idnum": 171,
+    "age": 20.9,
+    "gender": "male",
+    "spnbmd": -0.004975124
+  },
+  {
+    "idnum": 171,
+    "age": 22,
+    "gender": "male",
+    "spnbmd": 0.01736111
+  },
+  {
+    "idnum": 172,
+    "age": 20.4,
+    "gender": "female",
+    "spnbmd": 0.006319883
+  },
+  {
+    "idnum": 173,
+    "age": 13.4,
+    "gender": "female",
+    "spnbmd": 0.04756381
+  },
+  {
+    "idnum": 173,
+    "age": 14.35,
+    "gender": "female",
+    "spnbmd": 0.003691399
+  },
+  {
+    "idnum": 177,
+    "age": 20.95,
+    "gender": "female",
+    "spnbmd": 0.01198801
+  },
+  {
+    "idnum": 177,
+    "age": 22.2,
+    "gender": "female",
+    "spnbmd": 0.008521847
+  },
+  {
+    "idnum": 178,
+    "age": 13.9,
+    "gender": "male",
+    "spnbmd": 0.04358068
+  },
+  {
+    "idnum": 178,
+    "age": 14.9,
+    "gender": "male",
+    "spnbmd": 0.1015801
+  },
+  {
+    "idnum": 178,
+    "age": 15.9,
+    "gender": "male",
+    "spnbmd": 0.02868852
+  },
+  {
+    "idnum": 179,
+    "age": 15.5,
+    "gender": "female",
+    "spnbmd": 0.03752182
+  },
+  {
+    "idnum": 179,
+    "age": 16.5,
+    "gender": "female",
+    "spnbmd": -0.001682086
+  },
+  {
+    "idnum": 179,
+    "age": 17.5,
+    "gender": "female",
+    "spnbmd": 0.00758214
+  },
+  {
+    "idnum": 180,
+    "age": 24.7,
+    "gender": "male",
+    "spnbmd": 0.03125
+  },
+  {
+    "idnum": 181,
+    "age": 19.15,
+    "gender": "male",
+    "spnbmd": 0.02645503
+  },
+  {
+    "idnum": 181,
+    "age": 20.15,
+    "gender": "male",
+    "spnbmd": -0.00960984
+  },
+  {
+    "idnum": 181,
+    "age": 21.25,
+    "gender": "male",
+    "spnbmd": -0.03302253
+  },
+  {
+    "idnum": 182,
+    "age": 23.7,
+    "gender": "male",
+    "spnbmd": -0.015311
+  },
+  {
+    "idnum": 182,
+    "age": 24.7,
+    "gender": "male",
+    "spnbmd": 0.002915452
+  },
+  {
+    "idnum": 184,
+    "age": 19,
+    "gender": "female",
+    "spnbmd": -0.01086661
+  },
+  {
+    "idnum": 184,
+    "age": 20.15,
+    "gender": "female",
+    "spnbmd": 0.0135125
+  },
+  {
+    "idnum": 187,
+    "age": 19.8,
+    "gender": "female",
+    "spnbmd": 0.02031802
+  },
+  {
+    "idnum": 193,
+    "age": 13.75,
+    "gender": "female",
+    "spnbmd": 0.1357049
+  },
+  {
+    "idnum": 193,
+    "age": 14.9,
+    "gender": "female",
+    "spnbmd": 0.03993274
+  },
+  {
+    "idnum": 194,
+    "age": 23.8,
+    "gender": "female",
+    "spnbmd": 0.03696498
+  },
+  {
+    "idnum": 194,
+    "age": 24.8,
+    "gender": "female",
+    "spnbmd": -0.01125704
+  },
+  {
+    "idnum": 195,
+    "age": 23.25,
+    "gender": "female",
+    "spnbmd": -0.005145798
+  },
+  {
+    "idnum": 195,
+    "age": 24.25,
+    "gender": "female",
+    "spnbmd": 0.005270926
+  },
+  {
+    "idnum": 197,
+    "age": 21.3,
+    "gender": "female",
+    "spnbmd": -0.001855288
+  },
+  {
+    "idnum": 198,
+    "age": 21.9,
+    "gender": "female",
+    "spnbmd": -0.02023031
+  },
+  {
+    "idnum": 198,
+    "age": 22.95,
+    "gender": "female",
+    "spnbmd": 0.00744285
+  },
+  {
+    "idnum": 201,
+    "age": 13.95,
+    "gender": "female",
+    "spnbmd": 0.02112276
+  },
+  {
+    "idnum": 202,
+    "age": 21.8,
+    "gender": "female",
+    "spnbmd": 0.01749781
+  },
+  {
+    "idnum": 202,
+    "age": 22.85,
+    "gender": "female",
+    "spnbmd": -0.03998857
+  },
+  {
+    "idnum": 206,
+    "age": 15.65,
+    "gender": "male",
+    "spnbmd": 0.1329818
+  },
+  {
+    "idnum": 206,
+    "age": 16.7,
+    "gender": "male",
+    "spnbmd": 0.1067107
+  },
+  {
+    "idnum": 207,
+    "age": 10.75,
+    "gender": "male",
+    "spnbmd": 0.04271793
+  },
+  {
+    "idnum": 207,
+    "age": 11.9,
+    "gender": "male",
+    "spnbmd": 0.04324451
+  },
+  {
+    "idnum": 208,
+    "age": 13.05,
+    "gender": "male",
+    "spnbmd": -0.02691388
+  },
+  {
+    "idnum": 208,
+    "age": 14.15,
+    "gender": "male",
+    "spnbmd": 0.04160247
+  },
+  {
+    "idnum": 209,
+    "age": 15.35,
+    "gender": "male",
+    "spnbmd": 0.09786864
+  },
+  {
+    "idnum": 209,
+    "age": 16.45,
+    "gender": "male",
+    "spnbmd": 0.02748871
+  },
+  {
+    "idnum": 210,
+    "age": 22.95,
+    "gender": "female",
+    "spnbmd": -0.009778357
+  },
+  {
+    "idnum": 210,
+    "age": 24.1,
+    "gender": "female",
+    "spnbmd": 0.003433476
+  },
+  {
+    "idnum": 211,
+    "age": 11.1,
+    "gender": "female",
+    "spnbmd": 0.120442
+  },
+  {
+    "idnum": 211,
+    "age": 12.1,
+    "gender": "female",
+    "spnbmd": 0.01577909
+  },
+  {
+    "idnum": 213,
+    "age": 18.1,
+    "gender": "female",
+    "spnbmd": -0.005982054
+  },
+  {
+    "idnum": 213,
+    "age": 19.35,
+    "gender": "female",
+    "spnbmd": -0.01537947
+  },
+  {
+    "idnum": 214,
+    "age": 12.75,
+    "gender": "female",
+    "spnbmd": 0.06339931
+  },
+  {
+    "idnum": 215,
+    "age": 16.65,
+    "gender": "female",
+    "spnbmd": 0
+  },
+  {
+    "idnum": 216,
+    "age": 24.15,
+    "gender": "female",
+    "spnbmd": -0.03569878
+  },
+  {
+    "idnum": 217,
+    "age": 22.55,
+    "gender": "male",
+    "spnbmd": -0.002067183
+  },
+  {
+    "idnum": 221,
+    "age": 17.95,
+    "gender": "male",
+    "spnbmd": 0.007682458
+  },
+  {
+    "idnum": 222,
+    "age": 16.05,
+    "gender": "female",
+    "spnbmd": -0.02147459
+  },
+  {
+    "idnum": 222,
+    "age": 17.25,
+    "gender": "female",
+    "spnbmd": -0.01008065
+  },
+  {
+    "idnum": 224,
+    "age": 19.25,
+    "gender": "male",
+    "spnbmd": -0.01210196
+  },
+  {
+    "idnum": 224,
+    "age": 20.35,
+    "gender": "male",
+    "spnbmd": 0.04995005
+  },
+  {
+    "idnum": 225,
+    "age": 15.2,
+    "gender": "male",
+    "spnbmd": 0.07756563
+  },
+  {
+    "idnum": 225,
+    "age": 16.2,
+    "gender": "male",
+    "spnbmd": 0.06004367
+  },
+  {
+    "idnum": 226,
+    "age": 11.1,
+    "gender": "female",
+    "spnbmd": 0.08779038
+  },
+  {
+    "idnum": 226,
+    "age": 12.2,
+    "gender": "female",
+    "spnbmd": 0.08211144
+  },
+  {
+    "idnum": 229,
+    "age": 13.2,
+    "gender": "female",
+    "spnbmd": 0.1135605
+  },
+  {
+    "idnum": 229,
+    "age": 14.35,
+    "gender": "female",
+    "spnbmd": 0.04649671
+  },
+  {
+    "idnum": 230,
+    "age": 25.15,
+    "gender": "male",
+    "spnbmd": 0.02586035
+  },
+  {
+    "idnum": 231,
+    "age": 16.15,
+    "gender": "female",
+    "spnbmd": 0.08702946
+  },
+  {
+    "idnum": 231,
+    "age": 17.25,
+    "gender": "female",
+    "spnbmd": 0.0708134
+  },
+  {
+    "idnum": 238,
+    "age": 16.15,
+    "gender": "female",
+    "spnbmd": 0.03517867
+  },
+  {
+    "idnum": 239,
+    "age": 14,
+    "gender": "male",
+    "spnbmd": 0.009995002
+  },
+  {
+    "idnum": 239,
+    "age": 15.15,
+    "gender": "male",
+    "spnbmd": 0.1090909
+  },
+  {
+    "idnum": 240,
+    "age": 11.65,
+    "gender": "male",
+    "spnbmd": 0.001295001
+  },
+  {
+    "idnum": 240,
+    "age": 12.7,
+    "gender": "male",
+    "spnbmd": 0.04409673
+  },
+  {
+    "idnum": 241,
+    "age": 12.65,
+    "gender": "female",
+    "spnbmd": 0.1206654
+  },
+  {
+    "idnum": 241,
+    "age": 13.7,
+    "gender": "female",
+    "spnbmd": 0.06598407
+  },
+  {
+    "idnum": 242,
+    "age": 12.05,
+    "gender": "female",
+    "spnbmd": 0.04363636
+  },
+  {
+    "idnum": 242,
+    "age": 13.15,
+    "gender": "female",
+    "spnbmd": -8.674532e-4
+  },
+  {
+    "idnum": 243,
+    "age": 13.75,
+    "gender": "female",
+    "spnbmd": 0.1066098
+  },
+  {
+    "idnum": 243,
+    "age": 14.9,
+    "gender": "female",
+    "spnbmd": 7.951654e-4
+  },
+  {
+    "idnum": 244,
+    "age": 11.1,
+    "gender": "female",
+    "spnbmd": 0.09525565
+  },
+  {
+    "idnum": 245,
+    "age": 15.2,
+    "gender": "female",
+    "spnbmd": 0.02815315
+  },
+  {
+    "idnum": 245,
+    "age": 16.35,
+    "gender": "female",
+    "spnbmd": 0.005941771
+  },
+  {
+    "idnum": 247,
+    "age": 10.45,
+    "gender": "female",
+    "spnbmd": 0.1669545
+  },
+  {
+    "idnum": 247,
+    "age": 11.4,
+    "gender": "female",
+    "spnbmd": 0.1114865
+  },
+  {
+    "idnum": 250,
+    "age": 18.1,
+    "gender": "male",
+    "spnbmd": 0.02184852
+  },
+  {
+    "idnum": 251,
+    "age": 20.4,
+    "gender": "male",
+    "spnbmd": 0.007260407
+  },
+  {
+    "idnum": 253,
+    "age": 22.05,
+    "gender": "male",
+    "spnbmd": -0.00563204
+  },
+  {
+    "idnum": 254,
+    "age": 13.45,
+    "gender": "male",
+    "spnbmd": 0.08690879
+  },
+  {
+    "idnum": 255,
+    "age": 10.35,
+    "gender": "female",
+    "spnbmd": 0.02880084
+  },
+  {
+    "idnum": 256,
+    "age": 15,
+    "gender": "female",
+    "spnbmd": 0.02532928
+  },
+  {
+    "idnum": 257,
+    "age": 10.65,
+    "gender": "female",
+    "spnbmd": 0.04810005
+  },
+  {
+    "idnum": 257,
+    "age": 11.75,
+    "gender": "female",
+    "spnbmd": 0.1267702
+  },
+  {
+    "idnum": 258,
+    "age": 10.05,
+    "gender": "female",
+    "spnbmd": 0.1127904
+  },
+  {
+    "idnum": 259,
+    "age": 9.8,
+    "gender": "female",
+    "spnbmd": 0.09747292
+  },
+  {
+    "idnum": 259,
+    "age": 10.85,
+    "gender": "female",
+    "spnbmd": -0.02541866
+  },
+  {
+    "idnum": 260,
+    "age": 14.55,
+    "gender": "female",
+    "spnbmd": -0.008632384
+  },
+  {
+    "idnum": 261,
+    "age": 23.95,
+    "gender": "female",
+    "spnbmd": 0.007374213
+  },
+  {
+    "idnum": 262,
+    "age": 11.95,
+    "gender": "male",
+    "spnbmd": 0.05438875
+  },
+  {
+    "idnum": 266,
+    "age": 13.85,
+    "gender": "female",
+    "spnbmd": 0.03397612
+  },
+  {
+    "idnum": 266,
+    "age": 14.85,
+    "gender": "female",
+    "spnbmd": 0.03353889
+  },
+  {
+    "idnum": 267,
+    "age": 15,
+    "gender": "female",
+    "spnbmd": 0.02567865
+  },
+  {
+    "idnum": 267,
+    "age": 16,
+    "gender": "female",
+    "spnbmd": 0.01216023
+  },
+  {
+    "idnum": 269,
+    "age": 16.5,
+    "gender": "female",
+    "spnbmd": 0.002068252
+  },
+  {
+    "idnum": 270,
+    "age": 13.6,
+    "gender": "female",
+    "spnbmd": 0.06493506
+  },
+  {
+    "idnum": 271,
+    "age": 13.35,
+    "gender": "female",
+    "spnbmd": 0.04115661
+  },
+  {
+    "idnum": 275,
+    "age": 14.7,
+    "gender": "male",
+    "spnbmd": 0.05879292
+  },
+  {
+    "idnum": 276,
+    "age": 13.8,
+    "gender": "female",
+    "spnbmd": 0.05370569
+  },
+  {
+    "idnum": 277,
+    "age": 9.95,
+    "gender": "male",
+    "spnbmd": 0.01605473
+  },
+  {
+    "idnum": 277,
+    "age": 11.5,
+    "gender": "male",
+    "spnbmd": 0.03539254
+  },
+  {
+    "idnum": 278,
+    "age": 12.3,
+    "gender": "male",
+    "spnbmd": 0.02216066
+  },
+  {
+    "idnum": 278,
+    "age": 13.35,
+    "gender": "male",
+    "spnbmd": 0.01970929
+  },
+  {
+    "idnum": 280,
+    "age": 11.1,
+    "gender": "female",
+    "spnbmd": 0.02173913
+  },
+  {
+    "idnum": 280,
+    "age": 12.2,
+    "gender": "female",
+    "spnbmd": 0.04986702
+  },
+  {
+    "idnum": 281,
+    "age": 10.6,
+    "gender": "female",
+    "spnbmd": 0.09196891
+  },
+  {
+    "idnum": 281,
+    "age": 11.7,
+    "gender": "female",
+    "spnbmd": 0.1907869
+  },
+  {
+    "idnum": 282,
+    "age": 14,
+    "gender": "female",
+    "spnbmd": 0.02768663
+  },
+  {
+    "idnum": 282,
+    "age": 14.95,
+    "gender": "female",
+    "spnbmd": 0.01313293
+  },
+  {
+    "idnum": 283,
+    "age": 10.75,
+    "gender": "male",
+    "spnbmd": 0.04419192
+  },
+  {
+    "idnum": 283,
+    "age": 11.75,
+    "gender": "male",
+    "spnbmd": 0.01614506
+  },
+  {
+    "idnum": 287,
+    "age": 16.25,
+    "gender": "female",
+    "spnbmd": 0.02668668
+  },
+  {
+    "idnum": 290,
+    "age": 18.85,
+    "gender": "female",
+    "spnbmd": 0.009253904
+  },
+  {
+    "idnum": 294,
+    "age": 12.75,
+    "gender": "female",
+    "spnbmd": 0.1474531
+  },
+  {
+    "idnum": 294,
+    "age": 14,
+    "gender": "female",
+    "spnbmd": 0.04610318
+  },
+  {
+    "idnum": 295,
+    "age": 10.5,
+    "gender": "male",
+    "spnbmd": 0.01182219
+  },
+  {
+    "idnum": 295,
+    "age": 11.8,
+    "gender": "male",
+    "spnbmd": 0.04207921
+  },
+  {
+    "idnum": 298,
+    "age": 23.3,
+    "gender": "male",
+    "spnbmd": 0.0172853
+  },
+  {
+    "idnum": 298,
+    "age": 24.5,
+    "gender": "male",
+    "spnbmd": -0.01426025
+  },
+  {
+    "idnum": 301,
+    "age": 12.5,
+    "gender": "male",
+    "spnbmd": 0.1613262
+  },
+  {
+    "idnum": 302,
+    "age": 21.6,
+    "gender": "male",
+    "spnbmd": 0.007324219
+  },
+  {
+    "idnum": 303,
+    "age": 20.75,
+    "gender": "male",
+    "spnbmd": -0.03640647
+  },
+  {
+    "idnum": 303,
+    "age": 22,
+    "gender": "male",
+    "spnbmd": 0.01577564
+  },
+  {
+    "idnum": 304,
+    "age": 14.75,
+    "gender": "female",
+    "spnbmd": 0.0316945
+  },
+  {
+    "idnum": 304,
+    "age": 15.85,
+    "gender": "female",
+    "spnbmd": 0.02987973
+  },
+  {
+    "idnum": 305,
+    "age": 11.65,
+    "gender": "female",
+    "spnbmd": 0.04334121
+  },
+  {
+    "idnum": 306,
+    "age": 14.95,
+    "gender": "male",
+    "spnbmd": 0.1236917
+  },
+  {
+    "idnum": 306,
+    "age": 16.1,
+    "gender": "male",
+    "spnbmd": 0.09344262
+  },
+  {
+    "idnum": 307,
+    "age": 12.2,
+    "gender": "female",
+    "spnbmd": 0.1379986
+  },
+  {
+    "idnum": 308,
+    "age": 17.25,
+    "gender": "female",
+    "spnbmd": 0.001430001
+  },
+  {
+    "idnum": 309,
+    "age": 13,
+    "gender": "female",
+    "spnbmd": 0.111715
+  },
+  {
+    "idnum": 311,
+    "age": 20.6,
+    "gender": "male",
+    "spnbmd": 0.02746694
+  },
+  {
+    "idnum": 311,
+    "age": 21.7,
+    "gender": "male",
+    "spnbmd": -0.03382838
+  },
+  {
+    "idnum": 312,
+    "age": 20.4,
+    "gender": "male",
+    "spnbmd": -0.03128328
+  },
+  {
+    "idnum": 313,
+    "age": 19.9,
+    "gender": "male",
+    "spnbmd": 0.03533191
+  },
+  {
+    "idnum": 313,
+    "age": 20.95,
+    "gender": "male",
+    "spnbmd": 0.01598195
+  },
+  {
+    "idnum": 314,
+    "age": 19.05,
+    "gender": "female",
+    "spnbmd": 0.01544103
+  },
+  {
+    "idnum": 314,
+    "age": 20.1,
+    "gender": "female",
+    "spnbmd": -0.006263048
+  },
+  {
+    "idnum": 315,
+    "age": 17.6,
+    "gender": "male",
+    "spnbmd": 0.07430399
+  },
+  {
+    "idnum": 315,
+    "age": 18.7,
+    "gender": "male",
+    "spnbmd": 0.02590674
+  },
+  {
+    "idnum": 318,
+    "age": 17.7,
+    "gender": "female",
+    "spnbmd": -7.839448e-4
+  },
+  {
+    "idnum": 319,
+    "age": 19.25,
+    "gender": "male",
+    "spnbmd": 0.02834096
+  },
+  {
+    "idnum": 319,
+    "age": 20.3,
+    "gender": "male",
+    "spnbmd": -0.04418605
+  },
+  {
+    "idnum": 320,
+    "age": 15.35,
+    "gender": "female",
+    "spnbmd": 0.0708278
+  },
+  {
+    "idnum": 322,
+    "age": 16.55,
+    "gender": "male",
+    "spnbmd": 0.1060335
+  },
+  {
+    "idnum": 323,
+    "age": 15.4,
+    "gender": "female",
+    "spnbmd": -0.0110742
+  },
+  {
+    "idnum": 324,
+    "age": 16.3,
+    "gender": "male",
+    "spnbmd": 0.03579677
+  },
+  {
+    "idnum": 327,
+    "age": 10.65,
+    "gender": "female",
+    "spnbmd": 0.1416765
+  },
+  {
+    "idnum": 331,
+    "age": 14.85,
+    "gender": "female",
+    "spnbmd": 0.04737642
+  },
+  {
+    "idnum": 331,
+    "age": 15.9,
+    "gender": "female",
+    "spnbmd": 0.009345794
+  },
+  {
+    "idnum": 332,
+    "age": 11.2,
+    "gender": "female",
+    "spnbmd": 0.09354839
+  },
+  {
+    "idnum": 332,
+    "age": 12.3,
+    "gender": "female",
+    "spnbmd": 0.1136891
+  },
+  {
+    "idnum": 335,
+    "age": 10.2,
+    "gender": "female",
+    "spnbmd": 0.07003799
+  },
+  {
+    "idnum": 336,
+    "age": 17.8,
+    "gender": "female",
+    "spnbmd": -0.0115894
+  },
+  {
+    "idnum": 340,
+    "age": 23.9,
+    "gender": "female",
+    "spnbmd": -0.009314141
+  },
+  {
+    "idnum": 340,
+    "age": 24.85,
+    "gender": "female",
+    "spnbmd": -9.496676e-4
+  },
+  {
+    "idnum": 341,
+    "age": 19.9,
+    "gender": "male",
+    "spnbmd": 0.01192146
+  },
+  {
+    "idnum": 342,
+    "age": 18.65,
+    "gender": "male",
+    "spnbmd": 0.04841998
+  },
+  {
+    "idnum": 342,
+    "age": 19.65,
+    "gender": "male",
+    "spnbmd": 0.05394605
+  },
+  {
+    "idnum": 344,
+    "age": 20.4,
+    "gender": "male",
+    "spnbmd": 0.02027883
+  },
+  {
+    "idnum": 345,
+    "age": 19.85,
+    "gender": "male",
+    "spnbmd": 0.02174088
+  },
+  {
+    "idnum": 347,
+    "age": 14.95,
+    "gender": "male",
+    "spnbmd": 0.1496941
+  },
+  {
+    "idnum": 350,
+    "age": 19.3,
+    "gender": "male",
+    "spnbmd": 0.02512563
+  },
+  {
+    "idnum": 351,
+    "age": 15.6,
+    "gender": "male",
+    "spnbmd": 0.0244858
+  },
+  {
+    "idnum": 352,
+    "age": 12.75,
+    "gender": "male",
+    "spnbmd": 0.01904963
+  },
+  {
+    "idnum": 354,
+    "age": 16.35,
+    "gender": "male",
+    "spnbmd": 0.009513742
+  },
+  {
+    "idnum": 357,
+    "age": 11.4,
+    "gender": "female",
+    "spnbmd": 0.1256713
+  },
+  {
+    "idnum": 358,
+    "age": 16.5,
+    "gender": "male",
+    "spnbmd": 0.06321244
+  },
+  {
+    "idnum": 359,
+    "age": 16.15,
+    "gender": "male",
+    "spnbmd": 0.04596011
+  },
+  {
+    "idnum": 363,
+    "age": 25,
+    "gender": "female",
+    "spnbmd": 0.008821171
+  },
+  {
+    "idnum": 364,
+    "age": 9.4,
+    "gender": "female",
+    "spnbmd": 0.007072136
+  },
+  {
+    "idnum": 365,
+    "age": 15.4,
+    "gender": "male",
+    "spnbmd": 0.03626943
+  },
+  {
+    "idnum": 366,
+    "age": 9.75,
+    "gender": "male",
+    "spnbmd": 0.02174859
+  },
+  {
+    "idnum": 367,
+    "age": 14.65,
+    "gender": "male",
+    "spnbmd": 0.04965986
+  },
+  {
+    "idnum": 368,
+    "age": 12.2,
+    "gender": "female",
+    "spnbmd": 0.116129
+  },
+  {
+    "idnum": 369,
+    "age": 23.25,
+    "gender": "female",
+    "spnbmd": -0.02274758
+  },
+  {
+    "idnum": 374,
+    "age": 15.15,
+    "gender": "female",
+    "spnbmd": 0.01345555
+  },
+  {
+    "idnum": 375,
+    "age": 16.2,
+    "gender": "female",
+    "spnbmd": 0.01212415
+  },
+  {
+    "idnum": 377,
+    "age": 9.6,
+    "gender": "male",
+    "spnbmd": 0.01697793
+  },
+  {
+    "idnum": 379,
+    "age": 13.6,
+    "gender": "female",
+    "spnbmd": 0.0500417
+  },
+  {
+    "idnum": 380,
+    "age": 11.6,
+    "gender": "male",
+    "spnbmd": 0.1163683
+  },
+  {
+    "idnum": 381,
+    "age": 9.8,
+    "gender": "female",
+    "spnbmd": 0.0979021
+  },
+  {
+    "idnum": 382,
+    "age": 11.9,
+    "gender": "male",
+    "spnbmd": 0.02898551
+  },
+  {
+    "idnum": 383,
+    "age": 11.2,
+    "gender": "male",
+    "spnbmd": -0.06410256
+  },
+  {
+    "idnum": 384,
+    "age": 9.8,
+    "gender": "female",
+    "spnbmd": 0.04990758
+  }
+]

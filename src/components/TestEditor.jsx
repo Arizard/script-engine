@@ -20,6 +20,22 @@ export default class TestEditor extends Component {
                 relevantCues: '',
                 uuid: 'fake-uuid-2',
             },
+            {
+                type: 'script-row-form',
+                cts: '',
+                moveName: '',
+                moveOutcome: '',
+                relevantCues: '',
+                uuid: 'fake-uuid-3',
+            },
+            {
+                type: 'script-row-form',
+                cts: '',
+                moveName: '',
+                moveOutcome: '',
+                relevantCues: '',
+                uuid: 'fake-uuid-4',
+            },
         ]
     }
     

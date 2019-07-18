@@ -32,3 +32,11 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.script-row-form:hover .row-edit {
+    opacity: 1;
+}
+
+.script-row-form .row-edit {
+    opacity: 0;
+}

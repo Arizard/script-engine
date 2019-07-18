@@ -1,37 +1,47 @@
 import React, { Component } from 'react'
-import { Navbar, Button, Alignment, Divider } from '@blueprintjs/core'
-import { Link } from 'react-router-dom'
+import { Navbar, ButtonGroup, Alignment } from '@blueprintjs/core'
+// import { Link, withRouter } from 'react-router-dom'
+import LinkButton from './LinkButton'
 
 export default class CustomNavbar extends Component {
+    constructor(props){
+        super(props)
+        console.log(props)
+        this.state = {
+            desktop: true,
+            isOpen: false,
+        }
+        this.toggleNav = this.toggleNav.bind(this)
+    }
+    toggleNav(){
+        this.setState((state) => {
+            var newState = state
+            newState.isOpen = true
+            return newState
+        })
+    }
     render() {
-        return (
-            <Navbar>
-                <Navbar.Group align={Alignment.LEFT}>
-                    <Navbar.Heading>ScriptEngine</Navbar.Heading>
-                    <Navbar.Divider />
-                    <Link to='/' style={{ textDecoration: 'none'}}>
-                        <Button className="bp3-minimal" icon='home' text='Home'></Button>
-                    </Link>
-                    <Link to='/editor' style={{ textDecoration: 'none'}}>
-                        <Button className="bp3-minimal" icon='document' text='New'></Button>
-                    </Link>
-                    <Link to='/my-documents' style={{ textDecoration: 'none'}}>
-                        <Button className="bp3-minimal" icon='folder-open' text='My Documents'></Button>
-                    </Link>
-                    <Link to='/about' style={{ textDecoration: 'none'}}>
-                        <Button className="bp3-minimal" icon='info-sign' text='About'></Button>
-                    </Link>
-                    <Divider />
-                    <Link to='/test-editor' style={{ textDecoration: 'none'}}>
-                        <Button className="bp3-minimal" intent='danger' icon='build' text='Test Editor'></Button>
-                    </Link>
-
-                </Navbar.Group>
-                <Navbar.Group align={Alignment.RIGHT}>
-                <Button className="bp3-minimal" icon='log-in' text='Log In'></Button>
-                </Navbar.Group>
-            </Navbar>
-        )
+        if (this.state.desktop){
+            return (
+                <Navbar>
+                    <Navbar.Group align={Alignment.LEFT}>
+                        <Navbar.Heading>ScriptEngine</Navbar.Heading>
+                        <Navbar.Divider />
+                        {/* <ButtonGroup minimal={true}>
+                            <LinkButton icon='home' to='/' text='Home'></LinkButton>
+                            <LinkButton icon='document' to='/editor' text='New'></LinkButton>
+                            <LinkButton icon='folder-open' to='/my-documents' text='My Documents'></LinkButton>
+                            <LinkButton icon='info-sign' to='/about' text='About'></LinkButton>
+                        </ButtonGroup>
+                        <Navbar.Divider /> */}
+                        <LinkButton className="bp3-minimal" intent='danger' to='/test-editor' icon='build' text='Test Editor'></LinkButton>
+                    </Navbar.Group>
+                    {/* <Navbar.Group align={Alignment.RIGHT}>
+                        <LinkButton className="bp3-minimal" icon='log-in' text='Log In'></LinkButton>
+                    </Navbar.Group> */}
+                </Navbar>
+            )
+        }
     }
 }
 

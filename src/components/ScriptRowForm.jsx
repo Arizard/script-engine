@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
-import { EditableText, Button, Popover, Menu, MenuItem, Divider } from '@blueprintjs/core'
+import { EditableText } from '@blueprintjs/core'
 import './ScriptRowForm.css'
+import RowEdit from './RowEdit'
 
 export default class ScriptRowForm extends Component {
     constructor (props) {
@@ -15,22 +16,20 @@ export default class ScriptRowForm extends Component {
         this.handleMoveNameChange = this.handleMoveNameChange.bind(this)
         this.handleMoveOutcomeChange = this.handleMoveOutcomeChange.bind(this)
         this.handleRelevantCuesChange = this.handleRelevantCuesChange.bind(this)
-        this.confirmChange = this.confirmChange.bind(this)
-        this.handleInsertAfter = this.handleInsertAfter.bind(this)
+        this.onConfirm = this.onConfirm.bind(this)
     }
-    confirmChange(){
+    onConfirm(){
         var { cts, moveName, moveOutcome, relevantCues } = this.state
-        this.props.handleConfirmedChange(this.props.index, {
+        this.props.handleConfirmedChange({
             type: 'script-row-form',
             cts,
             moveName,
             moveOutcome,
             relevantCues,
+            uuid: this.props.uuid,
         })
     }
-    handleInsertAfter(){
-        this.props.handleScriptRowInsertAfter(this.props.uuid)
-    }
+    
     handleCtsChange(value) {
         this.setState((state) => {
             var newState = state
@@ -104,15 +103,7 @@ export default class ScriptRowForm extends Component {
                         />
                     </div>
                     <div className='col-1'>
-                        <Popover content={
-                            <Menu>
-                                <MenuItem text='Insert row after' icon='insert' onClick={this.handleInsertAfter} />
-                                <Divider />
-                                <MenuItem text='Delete' intent='danger' icon='delete' onClick={this.handleDelete} />
-                            </Menu>
-                        }>
-                            <Button icon='more' className='bp3-minimal wide' />
-                        </Popover>
+                        <RowEdit {...this.props} />
                     </div>
                 </div>
             </div>

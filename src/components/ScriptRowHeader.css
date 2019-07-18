@@ -1,2 +1,7 @@
-.script-row-header {
+.script-row-header:hover .row-edit {
+    opacity: 1;
+}
+
+.script-row-header .row-edit {
+    opacity: 0;
 }

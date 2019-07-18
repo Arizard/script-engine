@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 import { Button } from '@blueprintjs/core'
-import { Link } from 'react-router-dom'
+import { Link, Redirect } from 'react-router-dom'
 
 export default class Home extends Component {
     render() {
         return (
             <div className='row'>
                 <div className='col-12'>
+                    <Redirect to='/test-editor' />
                     <h1>Scripting Engine</h1>
                     <p>
                     <Link to='/editor' style={{ textDecoration: 'none'}}>
