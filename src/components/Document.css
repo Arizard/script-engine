@@ -1,0 +1,8 @@
+.hover-outline {
+    transition: background 0.05s;
+    -webkit-transition: background 0.05s;
+}
+
+.hover-outline:hover {
+    
+}

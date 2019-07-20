@@ -1,0 +1,11 @@
+.navbar-heading {
+    color: #F5F8FA;
+    background: #5C7080;
+    border-radius: 3px;
+    padding: 4px;
+    font-family: "Work Sans", sans-serif;
+}
+
+.navbar-x-scroll {
+    overflow-x: scroll;
+}

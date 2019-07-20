@@ -3,6 +3,7 @@ import ScriptRowForm from './ScriptRowForm'
 import ScriptRowHeader from './ScriptRowHeader'
 // import ButtonAddRow from './ButtonAddRow'
 import uuid from 'uuid'
+import './Document.css'
 
 export default class Document extends Component {
     constructor(props) {
@@ -138,36 +139,40 @@ export default class Document extends Component {
             switch (row.type){
                 case 'h1':
                     return (
-                        <ScriptRowHeader
-                            key={row.uuid}
-                            uuid={row.uuid}
-                            
-                            onConfirmChange={this.confirmChange(row.uuid)}
-                            onInsertHeaderAfter={this.insertHeaderAfter(row.uuid)}
-                            onInsertScriptRowAfter={this.insertScriptRowAfter(row.uuid)}
-                            onMoveDown={this.moveBy(row.uuid, 1)}
-                            onMoveUp={this.moveBy(row.uuid, -1)}
-                            onDeleteRow={this.deleteRow(row.uuid)}
-                            
-                            text={row.text} />
+                        <div className='hover-outline'>
+                            <ScriptRowHeader
+                                key={row.uuid}
+                                uuid={row.uuid}
+                                
+                                onConfirmChange={this.confirmChange(row.uuid)}
+                                onInsertHeaderAfter={this.insertHeaderAfter(row.uuid)}
+                                onInsertScriptRowAfter={this.insertScriptRowAfter(row.uuid)}
+                                onMoveDown={this.moveBy(row.uuid, 1)}
+                                onMoveUp={this.moveBy(row.uuid, -1)}
+                                onDeleteRow={this.deleteRow(row.uuid)}
+                                
+                                text={row.text} />
+                        </div>
                     )
                 case 'script-row-form':
                     return (
-                        <ScriptRowForm
-                            key={row.uuid}
-                            uuid={row.uuid}
-                            
-                            onConfirmChange={this.confirmChange(row.uuid)}
-                            onInsertHeaderAfter={this.insertHeaderAfter(row.uuid)}
-                            onInsertScriptRowAfter={this.insertScriptRowAfter(row.uuid)}
-                            onMoveDown={this.moveBy(row.uuid, 1)}
-                            onMoveUp={this.moveBy(row.uuid, -1)}
-                            onDeleteRow={this.deleteRow(row.uuid)}
+                        <div className='hover-outline'>
+                            <ScriptRowForm
+                                key={row.uuid}
+                                uuid={row.uuid}
+                                
+                                onConfirmChange={this.confirmChange(row.uuid)}
+                                onInsertHeaderAfter={this.insertHeaderAfter(row.uuid)}
+                                onInsertScriptRowAfter={this.insertScriptRowAfter(row.uuid)}
+                                onMoveDown={this.moveBy(row.uuid, 1)}
+                                onMoveUp={this.moveBy(row.uuid, -1)}
+                                onDeleteRow={this.deleteRow(row.uuid)}
 
-                            cts={row.cts}
-                            moveName={row.moveName}
-                            moveOutcome={row.moveOutcome}
-                            relevantCues={row.relevantCues} />
+                                cts={row.cts}
+                                moveName={row.moveName}
+                                moveOutcome={row.moveOutcome}
+                                relevantCues={row.relevantCues} />
+                        </div>
                         )
                 default:
                     return (

@@ -1,0 +1,15 @@
+.footer {
+    width: 100vw;
+    height: 48px;
+    margin-top: 48px;
+}
+
+.footer-content {
+    border-top: solid 1px #CED9E0;
+    padding-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 33vw;
+    text-align: center;
+    font-size: 12px;
+}

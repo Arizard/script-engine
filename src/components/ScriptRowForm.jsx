@@ -16,11 +16,11 @@ export default class ScriptRowForm extends Component {
         this.handleMoveNameChange = this.handleMoveNameChange.bind(this)
         this.handleMoveOutcomeChange = this.handleMoveOutcomeChange.bind(this)
         this.handleRelevantCuesChange = this.handleRelevantCuesChange.bind(this)
-        this.onConfirm = this.onConfirm.bind(this)
+        this.handleConfirmChange = this.handleConfirmChange.bind(this)
     }
-    onConfirm(){
+    handleConfirmChange(){
         var { cts, moveName, moveOutcome, relevantCues } = this.state
-        this.props.handleConfirmedChange({
+        this.props.onConfirmChange({
             type: 'script-row-form',
             cts,
             moveName,
@@ -71,7 +71,7 @@ export default class ScriptRowForm extends Component {
                             value={this.state.cts}
                             minWidth={0}
                             className='round-background x-padding-4px'
-                            onConfirm={this.confirmChange}
+                            onConfirm={this.handleConfirmChange}
                         />
                     </div>
                     <div className='col-2'>
@@ -80,7 +80,7 @@ export default class ScriptRowForm extends Component {
                             onChange={this.handleMoveNameChange}
                             value={this.state.moveName}
                             multiline={true}
-                            onConfirm={this.confirmChange}
+                            onConfirm={this.handleConfirmChange}
                         />
                     </div>
                     <div className='col-2'>
@@ -89,7 +89,7 @@ export default class ScriptRowForm extends Component {
                             onChange={this.handleMoveOutcomeChange}
                             value={this.state.moveOutcome}
                             multiline={true}
-                            onConfirm={this.confirmChange}
+                            onConfirm={this.handleConfirmChange}
                         />
                     </div>
                     <div className='col-6'>
@@ -99,7 +99,7 @@ export default class ScriptRowForm extends Component {
                             placeholder='Relevant Cues'
                             onChange={this.handleRelevantCuesChange}
                             value={this.state.relevantCues}
-                            onConfirm={this.confirmChange}
+                            onConfirm={this.handleConfirmChange}
                         />
                     </div>
                     <div className='col-1'>
