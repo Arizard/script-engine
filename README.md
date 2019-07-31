@@ -1,3 +1,13 @@
+# ScriptEngine
+
+ScriptEngine is an online tool for Les Mills instructors to quickly and consistently script for tracks.
+
+Libraries and Frameworks:
+*   React
+*   React-Router
+*   BlueprintJS
+*   Firebase API
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
