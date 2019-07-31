@@ -18,6 +18,7 @@ class App extends Component {
     super(props)
     this.state = {
       user: null,
+      token: null,
     }
     this.authListener = this.authListener.bind(this)
   }
@@ -32,6 +33,13 @@ class App extends Component {
       if (user) {
         this.setState({ user });
         localStorage.setItem('user', user.uid);
+        fire.auth().currentUser.getIdToken(/* forceRefresh */ true).then(function(idToken) {
+          // Send token to your backend via HTTPS
+          // ...
+          this.setState({ token: idToken })
+        }).catch(function(error) {
+          // Handle error
+        });
       } else {
         this.setState({ user: null });
         localStorage.removeItem('user');
@@ -40,6 +48,7 @@ class App extends Component {
   }
 
   render() {
+    console.log(this.state.token)
     const Application = () => {
       return (<>
         <Route exact path='/' component={Home} />
