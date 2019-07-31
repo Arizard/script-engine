@@ -7,8 +7,7 @@ export default class Container extends Component {
         return (
             <div className='container'>
                 <div className='row'>
-                    <div className='col-2'></div>
-                    <div className='col-8'>
+                    <div className='col-12'>
                         <Callout intent='warning' title='Prototype'>
                             Please be aware that this a non-functional Prototype
                             intended to demonstrate how this platform might appear to
@@ -16,7 +15,6 @@ export default class Container extends Component {
                             isn't a back end.
                         </Callout>
                     </div>
-                    <div className='col-2'></div>
                 </div>
                 {this.props.children}
             </div>

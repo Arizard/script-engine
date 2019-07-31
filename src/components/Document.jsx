@@ -174,6 +174,14 @@ export default class Document extends Component {
                                 relevantCues={row.relevantCues} />
                         </div>
                         )
+                case 'title':
+                    return (
+                        <div className='hover-outline row'>
+                            <div className='col-12'>
+                                <h1 className='bp3-text-muted'>{row.text}</h1>
+                            </div>
+                        </div>
+                    )
                 default:
                     return (
                         <p>Error rendering component.</p>
@@ -182,6 +190,7 @@ export default class Document extends Component {
         })
         return (
             <div>
+                <h1>{this.state.data.title}</h1>
                 {docRows}
             </div>
         )

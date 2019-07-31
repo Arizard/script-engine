@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import { Navbar, ButtonGroup, Alignment } from '@blueprintjs/core'
 // import { Link, withRouter } from 'react-router-dom'
 import LinkButton from './LinkButton'
+import LogoutButton from './Logout'
 import './CustomNavbar.css'
+
 
 export default class CustomNavbar extends Component {
     constructor(props){
@@ -39,9 +41,9 @@ export default class CustomNavbar extends Component {
                         <Navbar.Divider />
                         <LinkButton className="bp3-minimal" intent='danger' to='/test-editor' icon='build' text='Test Editor'></LinkButton>
                     </Navbar.Group>
-                    {/* <Navbar.Group align={Alignment.RIGHT}>
-                        <LinkButton className="bp3-minimal" icon='log-in' text='Log In'></LinkButton>
-                    </Navbar.Group> */}
+                    {this.props.user ? (<Navbar.Group align={Alignment.RIGHT}>
+                        <LogoutButton />
+                    </Navbar.Group>) : ('')}
                 </Navbar>
             )
         }
