@@ -60,6 +60,7 @@ export default class ScriptRowForm extends Component {
     }
     
     render() {
+        const isFocused = this.props.nextFocusUUID === this.props.uuid ? true : false
         return (
             <div className='script-row-form'>
                 <div className='row'>
@@ -72,7 +73,8 @@ export default class ScriptRowForm extends Component {
                             minWidth={0}
                             className='round-background x-padding-4px'
                             onConfirm={this.handleConfirmChange}
-                            isEditing={this.props.nextFocusUUID === this.props.uuid ? true : false}
+                            isEditing={isFocused}
+                            selectAllOnFocus={isFocused}
                         />
                     </div>
                     <div className='col-2'>

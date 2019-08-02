@@ -30,6 +30,7 @@ export default class ScriptRowHeader extends Component {
         })
     }
     render() {
+        const isFocused = this.props.nextFocusUUID === this.props.uuid ? true : false
         return (
             <div className='script-row-header row'>
                 <div className='col-11'>
@@ -39,6 +40,8 @@ export default class ScriptRowHeader extends Component {
                             onChange={this.handleTextChange}
                             onConfirm={this.onConfirm}
                             placeholder={this.props.placeholder}
+                            isEditing={isFocused}
+                            selectAllOnFocus={isFocused}
                         />
                     </H2>
                 </div>

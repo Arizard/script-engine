@@ -38,7 +38,9 @@ export default class Document extends Component {
 				} else {
 					state.data.data.splice(index + 1, 0, newRow);
 				}
-
+				
+				state.nextFocusUUID = newRow.uuid
+				
 				return state;
 			});
 		};
