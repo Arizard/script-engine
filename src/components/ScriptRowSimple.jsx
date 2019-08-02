@@ -30,7 +30,7 @@ export default class ScriptRowSimple extends Component {
         })
     }
     render() {
-        const isFocused = this.props.nextFocusUUID === this.props.uuid ? true : false
+        const isFocused = this.props.nextFocusUUID === this.props.uuid ? true : null
         return (
             <div className='script-row-simple row bp3-running-text'>
                 <div className='col-11'>

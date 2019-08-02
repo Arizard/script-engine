@@ -60,7 +60,7 @@ export default class ScriptRowForm extends Component {
     }
     
     render() {
-        const isFocused = this.props.nextFocusUUID === this.props.uuid ? true : false
+        const isFocused = this.props.nextFocusUUID === this.props.uuid ? true : null
         return (
             <div className='script-row-form'>
                 <div className='row'>
@@ -86,7 +86,7 @@ export default class ScriptRowForm extends Component {
                             onConfirm={this.handleConfirmChange}
                         />
                     </div>
-                    <div className='col-2'>
+                    <div className='col-4'>
                         <EditableText 
                             placeholder='Outcome for Move'
                             onChange={this.handleMoveOutcomeChange}
@@ -95,7 +95,7 @@ export default class ScriptRowForm extends Component {
                             onConfirm={this.handleConfirmChange}
                         />
                     </div>
-                    <div className='col-6'>
+                    <div className='col-4'>
                         <EditableText 
                             multiline={true}
                             minLines={3}

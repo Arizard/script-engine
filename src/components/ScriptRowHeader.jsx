@@ -30,7 +30,7 @@ export default class ScriptRowHeader extends Component {
         })
     }
     render() {
-        const isFocused = this.props.nextFocusUUID === this.props.uuid ? true : false
+        const isFocused = this.props.nextFocusUUID === this.props.uuid ? true : null
         return (
             <div className='script-row-header row'>
                 <div className='col-11'>
