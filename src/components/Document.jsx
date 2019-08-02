@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ScriptRowForm from './ScriptRowForm';
 import ScriptRowHeader from './ScriptRowHeader';
 import ScriptRowTitle from './ScriptRowTitle';
+import ScriptRowSimple from './ScriptRowSimple';
 import uuid from 'uuid';
 import './Document.css';
 
@@ -40,7 +41,7 @@ export default class Document extends Component {
 				}
 				
 				state.nextFocusUUID = newRow.uuid
-				
+
 				return state;
 			});
 		};
@@ -74,7 +75,33 @@ export default class Document extends Component {
 			});
 		};
 	}
-	duplicateScriptRow(_uuid) {
+	insertSimpleAfter(_uuid) {
+		return () => {
+			this.setState(state => {
+				var index;
+				const newRow = {
+					type: 'script-row-simple',
+					text: '',
+					uuid: uuid.v4()
+				};
+				state.data.data.forEach((row, i) => {
+					if (row.uuid === _uuid) {
+						index = i;
+					}
+				});
+				if (index === state.data.data.length - 1) {
+					state.data.data.push(newRow);
+				} else {
+					state.data.data.splice(index + 1, 0, newRow);
+				}
+				
+				state.nextFocusUUID = newRow.uuid
+
+				return state;
+			});
+		};
+	}
+	duplicateRow(_uuid) {
 		return () => {
 			this.setState(state => {
 
@@ -194,7 +221,8 @@ export default class Document extends Component {
                                 placeholder="Click to edit Heading"
 								text={row.text}
 								nextFocusUUID={this.state.nextFocusUUID}
-								onDuplicateScriptRow={this.duplicateScriptRow(row.uuid)}
+								onDuplicateRow={this.duplicateRow(row.uuid)}
+								onInsertSimple={this.insertSimpleAfter(row.uuid)}
 							/>
 						</div>
 					);
@@ -211,7 +239,8 @@ export default class Document extends Component {
 								onInsertScriptRowAfter={this.insertScriptRowAfter(
 									row.uuid
 								)}
-								onDuplicateScriptRow={this.duplicateScriptRow(row.uuid)}
+								onDuplicateRow={this.duplicateRow(row.uuid)}
+								onInsertSimple={this.insertSimpleAfter(row.uuid)}
 								onMoveDown={this.moveBy(row.uuid, 1)}
 								onMoveUp={this.moveBy(row.uuid, -1)}
 								onDeleteRow={this.deleteRow(row.uuid)}
@@ -232,6 +261,30 @@ export default class Document extends Component {
 								text={row.text}
 								placeholder="Click to edit Title"
 								onConfirmChange={this.confirmChange(row.uuid)}
+							/>
+						</div>
+					);
+				case 'script-row-simple':
+					return (
+						<div className="hover-outline">
+							<ScriptRowSimple
+								key={row.uuid}
+								uuid={row.uuid}
+								onConfirmChange={this.confirmChange(row.uuid)}
+								onInsertHeaderAfter={this.insertHeaderAfter(
+									row.uuid
+								)}
+								onInsertScriptRowAfter={this.insertScriptRowAfter(
+									row.uuid
+								)}
+								onMoveDown={this.moveBy(row.uuid, 1)}
+								onMoveUp={this.moveBy(row.uuid, -1)}
+								onDeleteRow={this.deleteRow(row.uuid)}
+								placeholder="Click to edit Paragraph"
+								text={row.text}
+								nextFocusUUID={this.state.nextFocusUUID}
+								onDuplicateRow={this.duplicateRow(row.uuid)}
+								onInsertSimple={this.insertSimpleAfter(row.uuid)}
 							/>
 						</div>
 					);
