@@ -12,7 +12,8 @@ export default class Document extends Component {
 		this.numChanges = 0;
 
 		this.state = {
-			data: this.props.data
+			data: this.props.data,
+			nextFocusUUID: null,
 		};
 
 		console.log(this.props.data)
@@ -65,6 +66,8 @@ export default class Document extends Component {
 					state.data.data.splice(index + 1, 0, newRow);
 				}
 
+				state.nextFocusUUID = newRow.uuid
+
 				return state;
 			});
 		};
@@ -90,6 +93,7 @@ export default class Document extends Component {
 					curState.data.data[i] = newData;
 				}
 			}
+			curState.nextFocusUUID = null
 			this.setState(state => {
 				return curState;
 			});
@@ -158,6 +162,7 @@ export default class Document extends Component {
                                 onDeleteRow={this.deleteRow(row.uuid)}
                                 placeholder="Click to edit Heading"
 								text={row.text}
+								nextFocusUUID={this.state.nextFocusUUID}
 							/>
 						</div>
 					);
@@ -181,6 +186,7 @@ export default class Document extends Component {
 								moveName={row.moveName}
 								moveOutcome={row.moveOutcome}
 								relevantCues={row.relevantCues}
+								nextFocusUUID={this.state.nextFocusUUID}
 							/>
 						</div>
 					);
