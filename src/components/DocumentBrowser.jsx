@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Tree, Button, ButtonGroup, Classes } from "@blueprintjs/core"
 
 function EditTools(props) {
-    if (props.type == 'document'){
+    if (props.type === 'document'){
         return (
             <ButtonGroup>
                 <Button
@@ -39,13 +39,13 @@ export default class DocumentBrowser extends Component {
     render() {
         console.log(this.state.nodes)
         return (
-            <div>
+            <div className={this.props.className}>
                 <div className='row'>
                     <div className='col-6'>
                         <h1>My Documents</h1>
                     </div>
                     <div className='col-6'>
-                        <h1>{this.props.selectedNode["label"]}</h1>
+                        <h1>{this.props.selectedNode ? this.props.selectedNode["label"] : ('')}</h1>
                     </div>
                     
                 </div>
@@ -55,19 +55,21 @@ export default class DocumentBrowser extends Component {
                             onNodeClick={this.handleNodeClick}
                             contents={this.state.nodes}
                             className={Classes.ELEVATION_0} />
+                        &nbsp;
+                        <p>
+                            <Button intent='primary' text='New Document' onClick={this.props.onNewDocument} />
+                        </p>
                     </div>
                     <div className='col-6'>
                         <div className='bp3-running-text bp3-text-muted'>
                             
                             <p>
-                                {this.props.selectedNode.description}
+                                {this.props.selectedNode ? this.props.selectedNode.description : ('Select a document.')}
                             </p>
 
-                            <p>
-                                <EditTools
-                                    type={this.props.selectedNode.type}
-                                    onClick={this.handleOpen(this.props.selectedNode)} />
-                            </p>
+                            {this.props.selectedNode ? (<EditTools
+                                type={this.props.selectedNode.type}
+                                onClick={this.handleOpen(this.props.selectedNode)} />) : ('')}
                             
                         </div>
                     </div>

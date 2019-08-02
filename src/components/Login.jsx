@@ -35,7 +35,7 @@ export default class Login extends Component {
         this.setState({ loading: false });
       })
       .catch(error => {
-        const { code, message } = error;
+        const { message } = error;
         this.setState({
           flash: message,
           flashIntent: "danger",
@@ -57,7 +57,7 @@ export default class Login extends Component {
       })
       .catch(error => {
         console.log(error);
-        const { code, message } = error;
+        const { message } = error;
         this.setState({
           flash: message,
           flashIntent: "danger",

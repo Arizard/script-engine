@@ -12,7 +12,7 @@ export default class Logout extends Component {
     render() {
         return (
             <>
-                <Button onClick={this.handleLogout} text='Log Out' className='bp3-minimal' />
+                <Button onClick={this.handleLogout} text={`Log Out (${this.props.email})`} className='bp3-minimal' />
             </>
         )
     }

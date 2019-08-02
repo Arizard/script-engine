@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-import './ScriptRowHeader.css'
-import { H2, EditableText } from '@blueprintjs/core'
-import RowEdit from './RowEdit'
+//import './ScriptRowTitle.css'
+import { H1, EditableText } from '@blueprintjs/core'
 
-export default class ScriptRowHeader extends Component {
+export default class ScriptRowTitle extends Component {
     constructor (props) {
         super(props)
         this.state = {
@@ -24,28 +23,25 @@ export default class ScriptRowHeader extends Component {
     onConfirm(){
         var { text } = this.state
         this.props.onConfirmChange({
-            type: 'h1',
+            type: 'title',
             text,
             uuid: this.props.uuid,
         })
     }
     render() {
         return (
-            <div className='script-row-header row'>
-                <div className='col-11'>
-                    <H2>
+            <div className='script-row-title row'>
+                <div className='col-11 bp3-text-muted'>
+                    <H1>
                         <EditableText
                             value={this.state.text}
                             onChange={this.handleTextChange}
                             onConfirm={this.onConfirm}
                             placeholder={this.props.placeholder}
                         />
-                    </H2>
+                    </H1>
                 </div>
                 <div className='col-1'>
-                    <RowEdit
-                        {...this.props}
-                    />
                 </div>
             </div>
         )

@@ -1,19 +1,53 @@
 import React, { Component } from 'react'
 import Document from './Document'
-import { FakeDocumentRepository } from '../repositories/Document'
-
 
 export default class Editor extends Component {
     constructor(props) {
         super(props)
-        const repo = new FakeDocumentRepository('fake_token')
-        console.log(this.props.match.params.uuid)
-        this.documentData = repo.get(this.props.match.params.uuid)
+        this.state = {
+            loaded: false,
+            documentData: [],
+        }
+    }
+
+    componentDidMount() {
+        this.repo = this.props.documentRepository
+        this.documentData = this.repo.get(
+            this.props.match.params.uuid,
+            (data) => {
+                this.setState({
+                    loaded: true,
+                    documentData: data,
+                })
+            })
+    }
+
+    handleSaveChanges = (documentData) => {
+        // find the first title row and set the title
+        var freshDocumentData = documentData
+        for (var i = 0; i < documentData.data.length; i++) {
+            var row = documentData.data[i]
+            if (row.type === "title") {
+                freshDocumentData.title = row.text
+            }
+            console.log(row.text)
+        }
+        console.log(freshDocumentData)
+        this.repo.update(
+            this.props.match.params.uuid,
+            freshDocumentData,
+        )
     }
     
     render() {
-        return (
-            <Document data={this.documentData} />
-        )
+        if (this.state.loaded){
+            return (
+                <Document
+                    data={this.state.documentData}
+                    onDocumentUpdate={this.handleSaveChanges}/>
+            )
+        } else {
+            return (<div></div>)
+        }
     }
 }

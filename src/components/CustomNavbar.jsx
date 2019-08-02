@@ -38,11 +38,11 @@ export default class CustomNavbar extends Component {
                             <LinkButton icon='folder-open' to='/my-documents' text='My Documents'></LinkButton>
                             <LinkButton icon='info-sign' to='/about' text='About'></LinkButton>
                         </ButtonGroup>
-                        <Navbar.Divider />
-                        <LinkButton className="bp3-minimal" intent='danger' to='/test-editor' icon='build' text='Test Editor'></LinkButton>
+                        {/* <Navbar.Divider /> */}
+                        {/* <LinkButton className="bp3-minimal" intent='danger' to='/test-editor' icon='build' text='Test Editor'></LinkButton> */}
                     </Navbar.Group>
                     {this.props.user ? (<Navbar.Group align={Alignment.RIGHT}>
-                        <LogoutButton />
+                        <LogoutButton email={this.props.user.email} />
                     </Navbar.Group>) : ('')}
                 </Navbar>
             )

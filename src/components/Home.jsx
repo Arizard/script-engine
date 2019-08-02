@@ -7,7 +7,7 @@ export default class Home extends Component {
         return (
             <div className='row'>
                 <div className='col-12'>
-                    <Redirect to='/test-editor' />
+                    <Redirect to='/my-documents' />
                     <h1>Scripting Engine</h1>
                     <p>
                     <Link to='/editor' style={{ textDecoration: 'none'}}>

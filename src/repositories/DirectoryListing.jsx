@@ -1,40 +1,36 @@
-
-import Base from './Base'
-import uuid from 'uuid'
-
+import Base from './Base';
+import ScriptEngine from '../config/ScriptEngine'
 
 class DirectoryListingRepository extends Base {
+	constructor(token) {
+		super();
+		this.token = token
+	}
 
+	get(callback) {
+		var obj = { 
+			method: 'GET',
+			mode: 'cors',
+			headers: {
+				'Accept': 'application/json',
+				'Content-Type': 'application/json',
+				'Host': 'localhost:8080',
+				'Origin': 'http://localhost:3000',
+				'Authorization': `Bearer ${this.token}`,
+				'Cache-Control': 'no-cache',
+			},
+		}
+		fetch(ScriptEngine.ListDocuments, obj)
+			.then(res => res.json())
+			.then(res => {
+				var data = res
+				data.forEach((value, index) => {
+					value.id = index
+				});
+				callback(data)
+			})
+			.catch((err) => { console.log(`Could not get list of documents: ${err}`) })
+	}
 }
 
-class FakeDirectoryListingRepository extends Base {
-    constructor(token) {
-        super()
-        this.token = token
-    } 
-
-    get() {
-        return [
-            {
-                id: 1,
-                label: "BODYBALANCE™ 77",
-                description: 'Scripts for BODYBALANCE 77',
-                uuid: uuid.v4(),
-            },
-            {
-                id: 2,
-                label: "BODYBALANCE™ 78",
-                description: 'Scripts for BODYBALANCE 78',
-                uuid: uuid.v4(),
-            },
-            {
-                id: 3,
-                label: "BODYSTEP™ 116",
-                description: 'Scripts for BODYSTEP 116',
-                uuid: uuid.v4(),
-            }
-        ]
-    }
-}
-
-export { DirectoryListingRepository, FakeDirectoryListingRepository }
+export { DirectoryListingRepository };
