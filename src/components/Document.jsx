@@ -72,6 +72,35 @@ export default class Document extends Component {
 			});
 		};
 	}
+	duplicateScriptRow(_uuid) {
+		return () => {
+			this.setState(state => {
+
+				var index;
+				var newRow;
+
+				for (var i = 0; i < state.data.data.length; i++) {
+					var row = state.data.data[i]
+					if (row.uuid === _uuid) {
+						index = i;
+						newRow = Object.assign({}, row)
+					}
+				}
+
+				newRow.uuid = uuid.v4()
+				
+				if (index === state.data.data.length - 1) {
+					state.data.data.push(newRow);
+				} else {
+					state.data.data.splice(index + 1, 0, newRow);
+				}
+
+				state.nextFocusUUID = newRow.uuid
+
+				return state;
+			});
+		};
+	}
 	deleteRow(_uuid) {
 		return () => {
 			this.setState(state => {
@@ -163,6 +192,7 @@ export default class Document extends Component {
                                 placeholder="Click to edit Heading"
 								text={row.text}
 								nextFocusUUID={this.state.nextFocusUUID}
+								onDuplicateScriptRow={this.duplicateScriptRow(row.uuid)}
 							/>
 						</div>
 					);
@@ -179,6 +209,7 @@ export default class Document extends Component {
 								onInsertScriptRowAfter={this.insertScriptRowAfter(
 									row.uuid
 								)}
+								onDuplicateScriptRow={this.duplicateScriptRow(row.uuid)}
 								onMoveDown={this.moveBy(row.uuid, 1)}
 								onMoveUp={this.moveBy(row.uuid, -1)}
 								onDeleteRow={this.deleteRow(row.uuid)}

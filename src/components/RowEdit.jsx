@@ -8,6 +8,7 @@ export default class RowEdit extends Component {
                 <Menu>
                     <Menu.Item text='Insert header after' icon='header-one' onClick={this.props.onInsertHeaderAfter} />
                     <Menu.Item text='Insert script row after' icon='insert' onClick={this.props.onInsertScriptRowAfter} />
+                    <Menu.Item text='Duplicate row' icon='duplicate' onClick={this.props.onDuplicateScriptRow} />
                     <Menu.Item text='Move up' icon='chevron-up' onClick={this.props.onMoveUp} />
                     <Menu.Item text='Move down' icon='chevron-down' onClick={this.props.onMoveDown} />
                     <Divider />
