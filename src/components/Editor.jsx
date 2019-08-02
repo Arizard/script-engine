@@ -29,8 +29,8 @@ export default class Editor extends Component {
             var row = documentData.data[i]
             if (row.type === "title") {
                 freshDocumentData.title = row.text
+                break
             }
-            console.log(row.text)
         }
         console.log(freshDocumentData)
         this.repo.update(
