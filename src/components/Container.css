@@ -1,5 +1,5 @@
-/* .container {
-    margin-top: 8px;
-    margin-right: auto;
-    margin-left: auto;
-} */
+.container {
+    background: #FFFFFF;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}

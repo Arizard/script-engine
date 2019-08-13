@@ -9,10 +9,9 @@ export default class Container extends Component {
                 <div className='row'>
                     <div className='col-12'>
                         <Callout intent='warning' title='Prototype'>
-                            Please be aware that this a non-functional Prototype
-                            intended to demonstrate how this platform might appear to
-                            a user. Not much will actually work and there probably
-                            isn't a back end.
+                            Please be careful! The service may be unreliable, so 
+                            please check the bottom left hand corner of the editor 
+                            to make sure your changes were saved!
                         </Callout>
                     </div>
                 </div>
