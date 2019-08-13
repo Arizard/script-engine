@@ -59,7 +59,7 @@ class DocumentRepository extends Base {
 			.catch((err) => { console.log(`Could not get document: ${err}`) })
 	}
     
-    update(_uuid, data) {
+    update(_uuid, data, callback) {
 		console.log(`Updating document '${_uuid}'`)
 		var newData = JSON.parse(JSON.stringify(data))
 		for (var i = 0; i < data.data.length; i++){
@@ -81,11 +81,14 @@ class DocumentRepository extends Base {
 			body: JSON.stringify(newData),
 		}
 		fetch(ScriptEngine.createUpdateDocumentURL(_uuid), obj)
-			.then(res => res.json())
-			.then(res => {
-				console.log(res)
+			.then(res => res.status)
+			.then(resStatus => {
+				callback(resStatus)
 			})
-			.catch((err) => { console.log(`Could not get document: ${err}`) })
+			.catch((err) => { 
+				console.log(`Could not get document: ${err}`)
+				callback(0)
+			})
     }
 
     delete(_uuid) {

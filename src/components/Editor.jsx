@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Document from './Document'
+import DocumentStatus from './DocumentStatus'
 
 export default class Editor extends Component {
     constructor(props) {
@@ -7,6 +8,7 @@ export default class Editor extends Component {
         this.state = {
             loaded: false,
             documentData: [],
+            documentStatus: 'opening',
         }
     }
 
@@ -17,6 +19,7 @@ export default class Editor extends Component {
             (data) => {
                 this.setState({
                     loaded: true,
+                    documentStatus: 'opened',
                     documentData: data,
                 })
             })
@@ -33,19 +36,36 @@ export default class Editor extends Component {
             }
         }
         console.log(freshDocumentData)
+        this.setState({
+            documentStatus: 'saving',
+        })
         this.repo.update(
             this.props.match.params.uuid,
             freshDocumentData,
+            (resStatus) => {
+                if (resStatus == 200){
+                    this.setState({
+                        documentStatus: 'saved',
+                    })
+                }
+                else {
+                    this.setState({
+                        documentStatus: 'error',
+                    })
+                }
+            }
         )
     }
     
     render() {
         if (this.state.loaded){
-            return (
+            return (<div>
                 <Document
                     data={this.state.documentData}
                     onDocumentUpdate={this.handleSaveChanges}/>
-            )
+                <DocumentStatus
+                    status={this.state.documentStatus} />
+            </div>)
         } else {
             return (<div></div>)
         }

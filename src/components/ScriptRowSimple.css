@@ -1,3 +1,7 @@
-.script-row-simple {
-    
+.script-row-simple:hover .row-edit {
+    opacity: 1;
+}
+
+.script-row-simple .row-edit {
+    opacity: 0;
 }
