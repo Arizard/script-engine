@@ -12,6 +12,7 @@ export default class About extends Component {
                         of the outcome-based scripting model highlighted in 
                         AIM2 training modules.
                     </p>
+                    <p><a href="http://brain.less.coffee/posts/scriptengine-01/">Read more here.</a></p>
                 </div>
             </div>
         )
