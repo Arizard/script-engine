@@ -70,7 +70,7 @@ export default class ScriptRowForm extends Component {
                             placeholder='0'
                             onChange={this.handleCtsChange}
                             value={this.state.cts}
-                            minWidth={0}
+                            // minWidth={32}
                             className='round-background x-padding-4px'
                             onConfirm={this.handleConfirmChange}
                             isEditing={isFocused}
