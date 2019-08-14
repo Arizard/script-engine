@@ -42,15 +42,8 @@ export default class DocumentBrowser extends Component {
         return (
             <div className={'row ' + this.props.className}>
                 <div className='col-6'>
-<<<<<<< HEAD
-                    <div className='row'>
-                        <h1>My Documents</h1>
-                    </div>
-                    <div className='row'>
-=======
                     <h1>My Documents</h1>
                     <div>
->>>>>>> fix-layout
                         <Tree
                             onNodeClick={this.handleNodeClick}
                             contents={this.state.nodes}
@@ -60,14 +53,6 @@ export default class DocumentBrowser extends Component {
                             <Button text='New Document' onClick={this.props.onNewDocument} />
                         </p>
                     </div>
-<<<<<<< HEAD
-                </div>
-                <div className='col-6'>
-                    <div className='row'>
-                        <h1>{this.props.selectedNode ? this.props.selectedNode["label"] : ('')}</h1>
-                    </div>
-                    <div className='row'>
-=======
                     
                     
                 </div>
@@ -76,7 +61,6 @@ export default class DocumentBrowser extends Component {
                         <h1>{this.props.selectedNode ? this.props.selectedNode["label"] : ('')}</h1>
                     </div>
                     <div>
->>>>>>> fix-layout
                         <div className='bp3-running-text bp3-text-muted'>
                             
                             <p>
