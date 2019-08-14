@@ -69,18 +69,15 @@ class DocumentBrowserController extends Component {
         console.log(this.state.nodes)
         if (this.state.loaded){
             return (
-                <div>&nbsp;
-                    <DocumentBrowser
-                        onNodeClick={this.handleNodeClick}
-                        onOpen={this.handleOpen}
-                        selectedNode={this.state.selectedNode}
-                        contents={this.state.nodes}
-                        onNewDocument={this.handleNewDocument} />
-                </div>
+                <DocumentBrowser
+                    onNodeClick={this.handleNodeClick}
+                    onOpen={this.handleOpen}
+                    selectedNode={this.state.selectedNode}
+                    contents={this.state.nodes}
+                    onNewDocument={this.handleNewDocument} />
             )
         }
         return (
-        <div>
             <DocumentBrowser
                 className='bp3-skeleton'
                 onNodeClick={this.handleNodeClick}
@@ -104,7 +101,7 @@ class DocumentBrowserController extends Component {
                     },
                 ]} 
                 />
-        </div>)
+        )
     }   
 }
 
