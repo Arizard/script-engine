@@ -69,12 +69,15 @@ class DocumentBrowserController extends Component {
         console.log(this.state.nodes)
         if (this.state.loaded){
             return (
-                <DocumentBrowser
-                    onNodeClick={this.handleNodeClick}
-                    onOpen={this.handleOpen}
-                    selectedNode={this.state.selectedNode}
-                    contents={this.state.nodes}
-                    onNewDocument={this.handleNewDocument} />
+                // I dont know why this needs an empty span but whatever. It won't work without it.
+                <div><span></span>
+                    <DocumentBrowser
+                        onNodeClick={this.handleNodeClick}
+                        onOpen={this.handleOpen}
+                        selectedNode={this.state.selectedNode}
+                        contents={this.state.nodes}
+                        onNewDocument={this.handleNewDocument} />
+                </div>
             )
         }
         return (
