@@ -8,7 +8,8 @@ function EditTools(props) {
                 <Button
                     onClick={props.onClick}
                     text='Open'
-                    icon='document-open'/>
+                    icon='document-open'
+                    intent='primary' />
                 <Button text='Delete' disabled={true} icon='trash'/>
             </ButtonGroup>
         )
@@ -49,7 +50,7 @@ export default class DocumentBrowser extends Component {
                             className={Classes.ELEVATION_0} />
                         &nbsp;
                         <p>
-                            <Button intent='primary' text='New Document' onClick={this.props.onNewDocument} />
+                            <Button text='New Document' onClick={this.props.onNewDocument} />
                         </p>
                     </div>
                     
