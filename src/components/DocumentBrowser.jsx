@@ -39,18 +39,10 @@ export default class DocumentBrowser extends Component {
     render() {
         console.log(this.state.nodes)
         return (
-            <div className={this.props.className}>
-                <div className='row'>
-                    <div className='col-6'>
-                        <h1>My Documents</h1>
-                    </div>
-                    <div className='col-6'>
-                        <h1>{this.props.selectedNode ? this.props.selectedNode["label"] : ('')}</h1>
-                    </div>
-                    
-                </div>
-                <div className='row'>
-                    <div className='col-6'>
+            <div className={'row ' + this.props.className}>
+                <div className='col-6'>
+                    <h1>My Documents</h1>
+                    <div>
                         <Tree
                             onNodeClick={this.handleNodeClick}
                             contents={this.state.nodes}
@@ -60,7 +52,14 @@ export default class DocumentBrowser extends Component {
                             <Button intent='primary' text='New Document' onClick={this.props.onNewDocument} />
                         </p>
                     </div>
-                    <div className='col-6'>
+                    
+                    
+                </div>
+                <div className='col-6'>
+                    <div>
+                        <h1>{this.props.selectedNode ? this.props.selectedNode["label"] : ('')}</h1>
+                    </div>
+                    <div>
                         <div className='bp3-running-text bp3-text-muted'>
                             
                             <p>
