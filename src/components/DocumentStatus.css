@@ -1,5 +1,4 @@
 .document-status {
-    width: 120px;
     position: fixed;
     left: 16px;
     bottom: 16px;
@@ -9,7 +8,7 @@
     /* border: 1px solid #000000; */
 }
 
-.document-status .bp3-heading {
+.document-status {
     text-transform: capitalize;
 }
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Icon, Callout } from '@blueprintjs/core'
+import { Icon, Tag } from '@blueprintjs/core'
 import { IconNames } from '@blueprintjs/icons'
 import './DocumentStatus.css'
 
@@ -37,11 +37,14 @@ export default class DocumentStatus extends Component {
         }
 
         return (
-            <Callout
+            <Tag
                 className='document-status'
                 intent={intent}
                 icon={icon}
-                title={this.props.status} />
+                minimal={true} 
+                large={true} >
+                {this.props.status} 
+            </Tag>
         )
     }
 }
