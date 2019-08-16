@@ -11,7 +11,6 @@ import DocumentBrowserController from './components/DocumentBrowserController';
 import Footer from './components/Footer'
 import Login from './components/Login'
 import fire from './config/Fire'
-import ScriptEngine from './config/ScriptEngine'
 import { DirectoryListingRepository } from './repositories/DirectoryListing'
 import { DocumentRepository } from './repositories/Document'
 

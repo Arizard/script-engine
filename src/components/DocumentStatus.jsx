@@ -34,6 +34,10 @@ export default class DocumentStatus extends Component {
                 icon = IconNames.ERROR
                 intent = 'danger'
                 break
+            default:
+                icon = IconNames.ASTERISK
+                intent = 'warning'
+                break
         }
 
         return (

@@ -1,6 +1,3 @@
-import fire from './Fire'
-
-
 class ScriptEngineAPI {
     constructor(url){
         this.apiURL = url

@@ -44,7 +44,7 @@ export default class Editor extends Component {
             this.props.match.params.uuid,
             freshDocumentData,
             (resStatus) => {
-                if (resStatus == 200){
+                if (resStatus === 200){
                     this.setState({
                         documentStatus: 'saved',
                     })

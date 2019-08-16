@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './ScriptRowSimple.css'
-import { H2, EditableText } from '@blueprintjs/core'
+import { EditableText } from '@blueprintjs/core'
 import RowEdit from './RowEdit'
 
 export default class ScriptRowSimple extends Component {
