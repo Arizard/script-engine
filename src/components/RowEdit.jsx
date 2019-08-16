@@ -16,7 +16,7 @@ export default class RowEdit extends Component {
                     <Menu.Item text='Delete' intent='danger' icon='delete' onClick={this.props.onDeleteRow} />
                 </Menu>
             }>
-                <Button icon='edit' className='bp3-minimal row-edit' />
+                <Button icon='more' className='bp3-minimal row-edit' />
             </Popover>
         )
     }
