@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Icon, Tag } from '@blueprintjs/core'
+import { Tag } from '@blueprintjs/core'
 import { IconNames } from '@blueprintjs/icons'
 import './DocumentStatus.css'
 
