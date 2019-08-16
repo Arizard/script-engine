@@ -1,26 +1,16 @@
 .document-status {
     width: 120px;
-    height: 24px;
     position: fixed;
-    left: 0px;
-    bottom: 0px;
+    left: 16px;
+    bottom: 16px;
     box-sizing: border-box;
     background: #FFFFFF;
-    border-top-right-radius: 3px;
+    border-radius: 3px;
     /* border: 1px solid #000000; */
 }
 
-.document-status .status-text {
-    width: 96px;
-    height: 24px;
-    position: absolute;
-    right: 0px;
-    box-sizing: border-box;
-    padding-left: 6px;
+.document-status .bp3-heading {
     text-transform: capitalize;
-    padding-top: 2px;
-    color: #BFCCD6;
-    font-weight: bold;
 }
 
 .document-status .status-text::after {

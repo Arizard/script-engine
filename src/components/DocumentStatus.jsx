@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Icon } from '@blueprintjs/core'
+import { Icon, Callout } from '@blueprintjs/core'
 import { IconNames } from '@blueprintjs/icons'
 import './DocumentStatus.css'
 
@@ -12,34 +12,36 @@ export default class DocumentStatus extends Component {
         }
     }
     render() {
-        var icon;
+        var icon, intent;
         switch (this.props.status) {
             case 'opening':
-                icon = IconNames.DOCUMENT_OPEN
+                icon = IconNames.TICK_CIRCLE
+                intent = 'primary'
                 break
             case 'opened':
-                icon = IconNames.DOCUMENT_OPEN
+                icon = IconNames.TICK_CIRCLE
+                intent = 'primary'
                 break
             case 'saving':
                 icon = IconNames.CIRCLE_ARROW_UP
+                intent = 'warning'
                 break
             case 'saved':
                 icon = IconNames.SAVED
+                intent = 'success'
                 break
             case 'error':
                 icon = IconNames.ERROR
+                intent = 'danger'
                 break
         }
 
         return (
-            <div className='document-status'>
-                <div className='status-icon'>
-                    <Icon icon={icon} iconSize={16} />
-                </div>
-                <div className='status-text'>
-                    {this.props.status}
-                </div>
-            </div>
+            <Callout
+                className='document-status'
+                intent={intent}
+                icon={icon}
+                title={this.props.status} />
         )
     }
 }
