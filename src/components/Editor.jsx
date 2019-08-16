@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Document from './Document'
 import DocumentStatus from './DocumentStatus'
+import Toolbar from './Toolbar';
 
 export default class Editor extends Component {
     constructor(props) {
@@ -65,6 +66,8 @@ export default class Editor extends Component {
                     onDocumentUpdate={this.handleSaveChanges}/>
                 <DocumentStatus
                     status={this.state.documentStatus} />
+                <Toolbar
+                    />
             </div>)
         } else {
             return (<div></div>)
