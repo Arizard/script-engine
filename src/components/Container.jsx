@@ -6,7 +6,7 @@ export default class Container extends Component {
     render() {
         return (
             <div className='container'>
-                <div className='row'>
+                {/* <div className='row'>
                     <div className='col-12'>
                         <Callout intent='warning' title='Prototype'>
                             Please be careful! The service may be unreliable, so 
@@ -14,7 +14,7 @@ export default class Container extends Component {
                             to make sure your changes were saved!
                         </Callout>
                     </div>
-                </div>
+                </div> */}
                 {this.props.children}
             </div>
         )
