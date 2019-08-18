@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ButtonGroup } from '@blueprintjs/core'
+import { ButtonGroup, Button, Tooltip } from '@blueprintjs/core'
 import "./Toolbar.css"
 import ScriptAssist from './ScriptAssist';
 
@@ -8,6 +8,9 @@ export default class Toolbar extends Component {
         return (
             <div className='document-toolbar'>
                 <ButtonGroup>
+                    <Tooltip content='Document Tools'>
+                        <Button text='Menu' icon='menu'></Button>
+                    </Tooltip>
                     <ScriptAssist />
                 </ButtonGroup>
             </div>

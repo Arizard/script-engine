@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Popover, Menu, Button, Divider } from '@blueprintjs/core'
+import { Popover, Menu, Button, Divider, Tooltip } from '@blueprintjs/core'
 
 export default class RowEdit extends Component {
     render() {
@@ -16,7 +16,9 @@ export default class RowEdit extends Component {
                     <Menu.Item text='Delete' intent='danger' icon='delete' onClick={this.props.onDeleteRow} />
                 </Menu>
             }>
-                <Button icon='more' className='bp3-minimal row-edit' />
+                <Tooltip content='Row Tools'>
+                    <Button icon='more' className='bp3-minimal row-edit' />
+                </Tooltip>
             </Popover>
         )
     }
