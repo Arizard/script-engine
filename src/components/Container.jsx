@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
-import { Callout } from '@blueprintjs/core'
+import { Classes } from '@blueprintjs/core'
 import './Container.css'
 
 export default class Container extends Component {
     render() {
         return (
             <div className='container'>
+<<<<<<< HEAD
                 {/* <div className='row'>
                     <div className='col-12'>
                         <Callout intent='warning' title='Prototype'>
@@ -15,6 +16,8 @@ export default class Container extends Component {
                         </Callout>
                     </div>
                 </div> */}
+=======
+>>>>>>> styling
                 {this.props.children}
             </div>
         )
