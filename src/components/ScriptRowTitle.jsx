@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-//import './ScriptRowTitle.css'
+import './ScriptRowTitle.css'
 import { H1, EditableText } from '@blueprintjs/core'
 
 export default class ScriptRowTitle extends Component {
@@ -40,6 +40,7 @@ export default class ScriptRowTitle extends Component {
                             placeholder={this.props.placeholder}
                         />
                     </H1>
+                    <hr></hr>
                 </div>
                 <div className='col-1'>
                 </div>

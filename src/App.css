@@ -8,3 +8,11 @@ body {
 button {
   font-family: "Work Sans", sans-serif;
 }
+
+hr {
+  background-color: #353535;
+  border: 0;
+  height: 0.1em;
+  margin: 24px 0;
+  padding: 0;
+}
