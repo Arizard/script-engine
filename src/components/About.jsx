@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-// import { Button } from '@blueprintjs/core'
+import { Tag } from '@blueprintjs/core'
 
 export default class About extends Component {
     render() {
@@ -13,6 +13,12 @@ export default class About extends Component {
                         AIM2 training modules.
                     </p>
                     <p><a href="http://brain.less.coffee/posts/scriptengine-01/">Read more here.</a></p>
+                    <h2>Legend</h2>
+                    <ul>
+                        <li><Tag className='background-layer-1'>Layer 1</Tag></li>
+                        <li><Tag className='background-layer-2'>Layer 2</Tag></li>
+                        <li><Tag className='background-layer-3'>Layer 3</Tag></li>
+                    </ul>
                 </div>
             </div>
         )

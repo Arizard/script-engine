@@ -29,7 +29,12 @@ export default class CustomNavbar extends Component {
                 <Navbar className='navbar-x-scroll'>
                     <Navbar.Group align={Alignment.LEFT}>
                         <Navbar.Heading className='navbar-heading'>
-                            <span style={{fontWeight: 'bold'}}>script</span>engine
+                            <div className='layers-container'>
+                                <div id='heading-l1'></div>
+                                <div id='heading-l2'></div>
+                                <div id='heading-l3'></div>
+                            </div>
+                            <div className='logo-text'><span style={{fontWeight: 'bold'}}>script</span>engine</div>
                         </Navbar.Heading>
                         <Navbar.Divider />
                         <ButtonGroup minimal={true}>

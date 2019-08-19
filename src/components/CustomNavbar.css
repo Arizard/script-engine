@@ -2,9 +2,43 @@
     color: #F5F8FA;
     background: #5C7080;
     border-radius: 3px;
-    padding: 4px;
+    padding: 0px;
     font-family: "Work Sans", sans-serif;
+    overflow: hidden;
+    height: 28px;
 }
+
+.logo-text {
+    margin: 4px;
+    margin-right: 8px;
+    float: right;
+}
+
+.layers-container {
+    float: left;
+    margin: 0px;
+    height: 100%;
+}
+
+#heading-l1, #heading-l2, #heading-l3 {
+    height: 100%;
+    width: 3px;
+    float: left;
+}
+
+#heading-l1 {
+    background-color: #2EE6D6;
+}
+
+#heading-l2 {
+    background-color: #AD99FF;
+}
+
+#heading-l3 {
+    background-color: #FF66A1;
+}
+
+
 
 .navbar-x-scroll {
     overflow-x: scroll;
