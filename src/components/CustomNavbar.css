@@ -6,7 +6,7 @@
     font-family: "Work Sans", sans-serif;
     overflow: hidden;
     height: 28px;
-    width: 128px;
+    min-width: 128px;
 }
 
 .logo-text {
