@@ -2,6 +2,9 @@ import React, { Component } from 'react'
 import { Tag } from '@blueprintjs/core'
 
 export default class About extends Component {
+    componentDidMount() {
+        document.title = 'About | ScriptEngine'
+    }
     render() {
         return (
             <div className='row'>

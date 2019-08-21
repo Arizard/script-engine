@@ -16,6 +16,7 @@ class DocumentBrowserController extends Component {
     }
 
     componentDidMount(){
+        document.title = 'My Documents | ScriptEngine'
         // const repo = new DirectoryListingRepository(this.props.token)
         const repo = this.props.directoryListingRepository
         repo.get((result) => {

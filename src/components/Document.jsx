@@ -253,6 +253,9 @@ export default class Document extends Component {
 						</div>
 					);
 				case 'title':
+					if (row.text !== ""){
+						document.title = row.text + " | ScriptEngine"
+					}
 					return (
 						<div className="hover-outline">
 							<ScriptRowTitle
