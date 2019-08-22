@@ -42,6 +42,7 @@ export default class ScriptRowHeader extends Component {
                             placeholder={this.props.placeholder}
                             isEditing={isFocused}
                             selectAllOnFocus={isFocused}
+                            multiline={true}
                         />
                     </H2>
                 </div>

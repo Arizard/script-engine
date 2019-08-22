@@ -38,6 +38,7 @@ export default class ScriptRowTitle extends Component {
                             onChange={this.handleTextChange}
                             onConfirm={this.onConfirm}
                             placeholder={this.props.placeholder}
+                            multiline={true}
                         />
                     </H1>
                     <hr></hr>
