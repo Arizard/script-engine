@@ -244,11 +244,13 @@ export default class Document extends Component {
 								onMoveDown={this.moveBy(row.uuid, 1)}
 								onMoveUp={this.moveBy(row.uuid, -1)}
 								onDeleteRow={this.deleteRow(row.uuid)}
+								nextFocusUUID={this.state.nextFocusUUID}
+								// data
 								cts={row.cts}
 								moveName={row.moveName}
 								moveOutcome={row.moveOutcome}
 								relevantCues={row.relevantCues}
-								nextFocusUUID={this.state.nextFocusUUID}
+								tags={row.tags}
 							/>
 						</div>
 					);

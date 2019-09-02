@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Popover, Menu, Button } from '@blueprintjs/core'
+import { Popover, Menu, Button, TagInput } from '@blueprintjs/core'
 import './RowEdit.css'
 
 export default class RowEdit extends Component {

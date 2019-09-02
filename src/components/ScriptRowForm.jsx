@@ -1,115 +1,135 @@
-import React, { Component } from 'react'
-import { EditableText } from '@blueprintjs/core'
-import './ScriptRowForm.css'
-import RowEdit from './RowEdit'
+import React, { Component } from 'react';
+import { EditableText } from '@blueprintjs/core';
+import './ScriptRowForm.css';
+import RowEdit from './RowEdit';
 
 export default class ScriptRowForm extends Component {
-    constructor (props) {
-        super(props)
-        this.state = {
-            cts: props.cts,
-            moveName: props.moveName,
-            moveOutcome: props.moveOutcome,
+	constructor(props) {
+		super(props);
+		this.state = {
+			cts: props.cts,
+			moveName: props.moveName,
+			moveOutcome: props.moveOutcome,
             relevantCues: props.relevantCues,
-        }
-        this.handleCtsChange = this.handleCtsChange.bind(this)
-        this.handleMoveNameChange = this.handleMoveNameChange.bind(this)
-        this.handleMoveOutcomeChange = this.handleMoveOutcomeChange.bind(this)
-        this.handleRelevantCuesChange = this.handleRelevantCuesChange.bind(this)
-        this.handleConfirmChange = this.handleConfirmChange.bind(this)
-    }
-    handleConfirmChange(){
-        var { cts, moveName, moveOutcome, relevantCues } = this.state
-        this.props.onConfirmChange({
-            type: 'script-row-form',
-            cts,
-            moveName,
-            moveOutcome,
-            relevantCues,
+            tags: props.tags,
+		};
+		this.handleCtsChange = this.handleCtsChange.bind(this);
+		this.handleMoveNameChange = this.handleMoveNameChange.bind(this);
+		this.handleMoveOutcomeChange = this.handleMoveOutcomeChange.bind(this);
+		this.handleRelevantCuesChange = this.handleRelevantCuesChange.bind(
+			this
+		);
+		this.handleConfirmChange = this.handleConfirmChange.bind(this);
+	}
+	handleConfirmChange() {
+		var { cts, moveName, moveOutcome, relevantCues, tags } = this.state;
+		this.props.onConfirmChange({
+			type: 'script-row-form',
+			cts,
+			moveName,
+			moveOutcome,
+			relevantCues,
             uuid: this.props.uuid,
+            tags,
+		});
+	}
+
+	handleCtsChange(value) {
+		this.setState(state => {
+			var newState = state;
+			newState.cts = value;
+			return newState;
+		});
+	}
+	handleMoveNameChange(value) {
+		this.setState(state => {
+			var newState = state;
+			newState.moveName = value;
+			return newState;
+		});
+	}
+	handleMoveOutcomeChange(value) {
+		this.setState(state => {
+			var newState = state;
+			newState.moveOutcome = value;
+			return newState;
+		});
+	}
+	handleRelevantCuesChange(value) {
+		this.setState(state => {
+			var newState = state;
+			newState.relevantCues = value;
+			return newState;
+		});
+	}
+	handleSetTags = (tags) => {
+        this.setState(state => {
+            var newState = state;
+			newState.tags = tags
+			return newState;
         })
     }
-    
-    handleCtsChange(value) {
-        this.setState((state) => {
-            var newState = state
-            newState.cts = value
-            return newState
-        })
-    }
-    handleMoveNameChange(value) {
-        this.setState((state) => {
-            var newState = state
-            newState.moveName = value
-            return newState
-        })
-    }
-    handleMoveOutcomeChange(value) {
-        this.setState((state) => {
-            var newState = state
-            newState.moveOutcome = value
-            return newState
-        })
-    }
-    handleRelevantCuesChange(value) {
-        this.setState((state) => {
-            var newState = state
-            newState.relevantCues = value
-            return newState
-        })
-    }
-    
-    render() {
-        const isFocused = this.props.nextFocusUUID === this.props.uuid ? true : null
-        return (
-            <div className='script-row-form'>
-                <div className='row'>
-                    <div className='col-1'>
-                        <EditableText 
-                            multiline={false}
-                            placeholder='0'
-                            onChange={this.handleCtsChange}
-                            value={this.state.cts}
-                            // minWidth={32}
-                            className='round-background x-padding-4px'
-                            onConfirm={this.handleConfirmChange}
-                            isEditing={isFocused}
-                            selectAllOnFocus={isFocused}
-                        />
-                    </div>
-                    <div className='col-2'>
-                        <EditableText 
-                            placeholder='Name of Move'
-                            onChange={this.handleMoveNameChange}
-                            value={this.state.moveName}
-                            multiline={true}
-                            onConfirm={this.handleConfirmChange}
-                        />
-                    </div>
-                    <div className='col-4'>
-                        <EditableText 
-                            placeholder='Outcome for Move'
-                            onChange={this.handleMoveOutcomeChange}
-                            value={this.state.moveOutcome}
-                            multiline={true}
-                            onConfirm={this.handleConfirmChange}
-                        />
-                    </div>
-                    <div className='col-4'>
-                        <EditableText 
-                            multiline={true}
-                            minLines={3}
-                            placeholder='Relevant Cues'
-                            onChange={this.handleRelevantCuesChange}
-                            value={this.state.relevantCues}
-                            onConfirm={this.handleConfirmChange}
-                        />
-                    </div>
-                    <div className='col-1'>
-                        <RowEdit {...this.props} />
-                    </div>
-                </div>
-            </div>
-        )
-    }
+	handleGetTags = () => {
+		return this.state.tags !== undefined ? this.state.tags : [];
+	}
+
+	render() {
+		const isFocused =
+			this.props.nextFocusUUID === this.props.uuid ? true : null;
+		return (
+			<div className="script-row-form">
+				<div className="row">
+					<div className="col-1">
+						<EditableText
+							multiline={false}
+							placeholder="0"
+							onChange={this.handleCtsChange}
+							value={this.state.cts}
+							// minWidth={32}
+							className="round-background x-padding-4px"
+							onConfirm={this.handleConfirmChange}
+							isEditing={isFocused}
+							selectAllOnFocus={isFocused}
+						/>
+					</div>
+					<div className="col-2">
+						<EditableText
+							placeholder="Name of Move"
+							onChange={this.handleMoveNameChange}
+							value={this.state.moveName}
+							multiline={true}
+							onConfirm={this.handleConfirmChange}
+						/>
+					</div>
+					<div className="col-4">
+						<EditableText
+							placeholder="Outcome for Move"
+							onChange={this.handleMoveOutcomeChange}
+							value={this.state.moveOutcome}
+							multiline={true}
+							onConfirm={this.handleConfirmChange}
+						/>
+					</div>
+					<div className="col-4">
+						<EditableText
+							multiline={true}
+							minLines={3}
+							placeholder="Relevant Cues"
+							onChange={this.handleRelevantCuesChange}
+							value={this.state.relevantCues}
+							onConfirm={this.handleConfirmChange}
+						/>
+					</div>
+					<div className="col-1">
+						<RowEdit
+							{...this.props}
+							taggable={true}
+							setTags={this.handleSetTags}
+							getTags={this.handleGetTags}
+						/>
+					</div>
+				</div>
+			</div>
+		);
+	}
 }
