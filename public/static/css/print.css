@@ -55,7 +55,8 @@
 	.document-status,
 	.bp3-navbar,
 	.document-toolbar,
-	.row-edit {
+	.row-edit,
+	.new-row-button {
 		display: none;
 	}
 

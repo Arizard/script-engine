@@ -6,3 +6,11 @@
 .hover-outline:hover {
     
 }
+
+.new-row-button span, .new-row-button button {
+    width: 100%;
+}
+
+.new-row-button svg {
+    margin-left: calc(50% - 8px);
+}

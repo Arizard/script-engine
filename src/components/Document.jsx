@@ -3,6 +3,7 @@ import ScriptRowForm from './ScriptRowForm';
 import ScriptRowHeader from './ScriptRowHeader';
 import ScriptRowTitle from './ScriptRowTitle';
 import ScriptRowSimple from './ScriptRowSimple';
+import { Button, Tooltip } from '@blueprintjs/core';
 import uuid from 'uuid';
 import './Document.css';
 
@@ -14,10 +15,10 @@ export default class Document extends Component {
 
 		this.state = {
 			data: this.props.data,
-			nextFocusUUID: null,
+			nextFocusUUID: null
 		};
 
-		console.log(this.props.data)
+		console.log(this.props.data);
 	}
 
 	insertHeaderAfter(_uuid) {
@@ -39,8 +40,8 @@ export default class Document extends Component {
 				} else {
 					state.data.data.splice(index + 1, 0, newRow);
 				}
-				
-				state.nextFocusUUID = newRow.uuid
+
+				state.nextFocusUUID = newRow.uuid;
 
 				return state;
 			});
@@ -69,7 +70,7 @@ export default class Document extends Component {
 					state.data.data.splice(index + 1, 0, newRow);
 				}
 
-				state.nextFocusUUID = newRow.uuid
+				state.nextFocusUUID = newRow.uuid;
 
 				return state;
 			});
@@ -94,8 +95,8 @@ export default class Document extends Component {
 				} else {
 					state.data.data.splice(index + 1, 0, newRow);
 				}
-				
-				state.nextFocusUUID = newRow.uuid
+
+				state.nextFocusUUID = newRow.uuid;
 
 				return state;
 			});
@@ -104,27 +105,26 @@ export default class Document extends Component {
 	duplicateRow(_uuid) {
 		return () => {
 			this.setState(state => {
-
 				var index;
 				var newRow;
 
 				for (var i = 0; i < state.data.data.length; i++) {
-					var row = state.data.data[i]
+					var row = state.data.data[i];
 					if (row.uuid === _uuid) {
 						index = i;
-						newRow = Object.assign({}, row)
+						newRow = Object.assign({}, row);
 					}
 				}
 
-				newRow.uuid = uuid.v4()
-				
+				newRow.uuid = uuid.v4();
+
 				if (index === state.data.data.length - 1) {
 					state.data.data.push(newRow);
 				} else {
 					state.data.data.splice(index + 1, 0, newRow);
 				}
 
-				state.nextFocusUUID = newRow.uuid
+				state.nextFocusUUID = newRow.uuid;
 
 				return state;
 			});
@@ -144,14 +144,14 @@ export default class Document extends Component {
 	}
 	confirmChange(_uuid) {
 		return newData => {
-			var curState = this.state
+			var curState = this.state;
 			for (var i = 0; i < curState.data.data.length; i++) {
-				var row = curState.data.data[i]
+				var row = curState.data.data[i];
 				if (row.uuid === _uuid) {
 					curState.data.data[i] = newData;
 				}
 			}
-			curState.nextFocusUUID = null
+			curState.nextFocusUUID = null;
 			this.setState(state => {
 				return curState;
 			});
@@ -217,12 +217,14 @@ export default class Document extends Component {
 								)}
 								onMoveDown={this.moveBy(row.uuid, 1)}
 								onMoveUp={this.moveBy(row.uuid, -1)}
-                                onDeleteRow={this.deleteRow(row.uuid)}
-                                placeholder="Click to edit Heading"
+								onDeleteRow={this.deleteRow(row.uuid)}
+								placeholder="Click to edit Heading"
 								text={row.text}
 								nextFocusUUID={this.state.nextFocusUUID}
 								onDuplicateRow={this.duplicateRow(row.uuid)}
-								onInsertSimple={this.insertSimpleAfter(row.uuid)}
+								onInsertSimple={this.insertSimpleAfter(
+									row.uuid
+								)}
 							/>
 						</div>
 					);
@@ -240,7 +242,9 @@ export default class Document extends Component {
 									row.uuid
 								)}
 								onDuplicateRow={this.duplicateRow(row.uuid)}
-								onInsertSimple={this.insertSimpleAfter(row.uuid)}
+								onInsertSimple={this.insertSimpleAfter(
+									row.uuid
+								)}
 								onMoveDown={this.moveBy(row.uuid, 1)}
 								onMoveUp={this.moveBy(row.uuid, -1)}
 								onDeleteRow={this.deleteRow(row.uuid)}
@@ -253,8 +257,8 @@ export default class Document extends Component {
 						</div>
 					);
 				case 'title':
-					if (row.text !== ""){
-						document.title = row.text + " | ScriptEngine"
+					if (row.text !== '') {
+						document.title = row.text + ' | ScriptEngine';
 					}
 					return (
 						<div className="hover-outline">
@@ -287,7 +291,9 @@ export default class Document extends Component {
 								text={row.text}
 								nextFocusUUID={this.state.nextFocusUUID}
 								onDuplicateRow={this.duplicateRow(row.uuid)}
-								onInsertSimple={this.insertSimpleAfter(row.uuid)}
+								onInsertSimple={this.insertSimpleAfter(
+									row.uuid
+								)}
 							/>
 						</div>
 					);
@@ -298,6 +304,18 @@ export default class Document extends Component {
 		return (
 			<div>
 				{docRows}
+				<div className="new-row-button">
+					<Tooltip content="Insert Script Row Here">
+						<Button
+							icon="insert"
+							minimal={true}
+							onClick={this.insertScriptRowAfter(
+								this.state.data.data.slice(-1)[0].uuid
+							)}
+							intent='primary'
+						></Button>
+					</Tooltip>
+				</div>
 			</div>
 		);
 	}
