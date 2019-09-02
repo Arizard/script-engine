@@ -7,12 +7,12 @@ export default class Toolbar extends Component {
     render() {
         return (
             <div className='document-toolbar'>
-                <ButtonGroup>
+                {/* <ButtonGroup>
                     <Tooltip content='Document Tools'>
                         <Button text='Menu' icon='menu'></Button>
                     </Tooltip>
                     <ScriptAssist />
-                </ButtonGroup>
+                </ButtonGroup> */}
             </div>
         )
     }
