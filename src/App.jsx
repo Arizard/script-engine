@@ -69,7 +69,7 @@ class App extends Component {
       </>)
     }
     return (
-      <Router basename="/scriptengine">
+      <Router>
         <CustomNavbar user={this.state.user} />
         <Container>
           {this.state.user == null ? <Login /> : <Application />}
