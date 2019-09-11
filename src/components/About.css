@@ -1,0 +1,23 @@
+.hero-text {
+    height: 300px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    background-image: url(/static/media/q319-lesmills-fia-webassets_cf-dt-bp.cfe65530.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-color: #aaa;
+    background-blend-mode: multiply;
+    border-radius: 3px;
+}
+
+.hero-text-highlight {
+    /* background: #000; */
+}
+
+.hero-uline {
+    border-bottom: solid 3px #fff;
+    width: 100px;
+    margin-left: calc(50% - 50px);
+}

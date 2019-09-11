@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Tag } from '@blueprintjs/core'
+import './About.css'
 
 export default class About extends Component {
     componentDidMount() {
@@ -7,6 +8,11 @@ export default class About extends Component {
     }
     render() {
         return (
+            <>
+            <div className='row hero-text'>
+                <p><h1><span className='hero-text-highlight'>We make it easy for Les Mills instructors to plan life changing fitness classes.</span></h1></p>
+                <div className='hero-uline'></div>
+            </div>
             <div className='row'>
                 <div className='col-12'>
                     <h1>About</h1>
@@ -24,6 +30,7 @@ export default class About extends Component {
                     </ul>
                 </div>
             </div>
+            </>
         )
     }
 }
