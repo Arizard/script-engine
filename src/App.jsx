@@ -13,7 +13,6 @@ import Login from './components/Login'
 import fire from './config/Fire'
 import { DirectoryListingRepository } from './repositories/DirectoryListing'
 import { DocumentRepository } from './repositories/Document'
-import RichEditorContainer from './components/rich-editor/RichEditorContainer';
 
 class App extends Component {
 
@@ -63,7 +62,6 @@ class App extends Component {
         <Route exact path='/' component={Home} />
         <Route exact path='/about' component={About} />
         <Route exact path='/test-editor' component={TestEditor} />
-        <Route exact path='/rich-editor' component={RichEditorContainer} />
         <Route exact path='/my-documents' render={
           (props) => <DocumentBrowserController {...props} {...globalProps} />} />
         <Route exact path='/edit/:uuid' render={
