@@ -1,9 +1,10 @@
 .hero-text {
+    padding: 2rem;
     height: 300px;
     vertical-align: middle;
     display: table-cell;
     text-align: center;
-    background-image: url(/static/media/q319-lesmills-fia-webassets_cf-dt-bp.cfe65530.jpg);
+    background-image: url(./q319-lesmills-fia-webassets_cf-dt-bp.jpg);
     background-size: cover;
     background-position: center;
     color: #fff;
